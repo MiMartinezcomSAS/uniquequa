@@ -1,0 +1,58 @@
+<?php
+/**
+ *	Oxygen WordPress Theme
+ *	
+ *	Laborator.co
+ *	www.laborator.co 
+ */
+
+?>
+		<!-- Sidebar Menu -->
+		<div class="main-sidebar<?php echo get_data('header_menu_search') ? ' has-search' : ''; ?>">
+		
+			<div class="sidebar-inner">
+
+			    <div class="lang">
+        <a href="#">Español</a>
+        <a href="#">Ingles</a>
+   				 </div>
+			
+				<?php get_template_part('tpls/logo'); ?>
+				
+				<div class="sidebar-menu<?php echo get_data('sidebar_menu_links_display') == 'Collapsed' ? ' collapsed-subs' : ''; ?>">
+				<?php
+					$args = array(
+						'theme_location' => 'main-menu',
+						'container' => '',
+						'menu_class' => 'nav',
+						'walker' => new Main_Menu_Walker()
+					);
+					
+					wp_nav_menu($args);
+				?>
+				</div>
+
+				<hr/>
+				<div id="shopping">
+        <h4>Carro de compras</h4>
+
+        <div class="shopping-contend">
+            <span class="price">$ 0.000</span>
+            <span class="item">0 - items</span>
+        </div>
+        <span>►</span>
+    </div>
+    <hr/>
+				
+			</div><!-- /sidebar-inner -->
+			
+			
+			<?php if(get_data('header_menu_search')): ?>
+			<form action="<?php echo home_url(); ?>" method="get" class="search" enctype="application/x-www-form-urlencoded">
+				<input type="text" class="search_input" name="s" alt="" placeholder="<?php _e('Search...', TD); ?>" value="<?php echo esc_attr(get('s')); ?>" /> 
+				<span class="glyphicon glyphicon-search float_right"></span>
+			</form>
+			<?php endif; ?>
+		
+		</div><!-- /sidebar -->
+		
