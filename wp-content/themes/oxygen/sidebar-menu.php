@@ -53,6 +53,23 @@
 				<span class="glyphicon glyphicon-search float_right"></span>
 			</form>
 			<?php endif; ?>
-		
+            <div class="footer-sidebar">
+                <nav id="network">
+                    <ul>
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-googleplus"></span></a></li>
+                        <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                        <li><a href="#"><span class="icon-youtube"></span></a></li>
+                    </ul>
+                </nav>
+                <p class="first"> ©Unique Condoms - 2014 </p>
+
+                <p> Todos los derechos reservados </p>
+                <hr/>
+                <p>Diseño y desarrollo web: <a href="http://mi-martinez.com" target="_blank"> <span
+                            class="icons-fuentelogo"></span></a></p>
+            </div>
+
 		</div><!-- /sidebar -->
 		

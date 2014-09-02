@@ -6,6 +6,7 @@
  *	www.laborator.co 
  */
 
+if( !is_front_page()){
 the_post();
 
 get_header();
@@ -13,7 +14,6 @@ get_header();
 # Analyze page content
 $content = get_the_content();
 $is_vc_page = preg_match("/(\[.*?\])/", $content);
-
 
 ?>
 <div class="page-container">
@@ -37,3 +37,10 @@ $is_vc_page = preg_match("/(\[.*?\])/", $content);
 <?php
 
 get_footer();
+}else{
+    get_header();
+    get_footer();
+    ?>
+
+<?php
+}

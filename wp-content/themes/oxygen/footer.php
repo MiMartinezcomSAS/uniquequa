@@ -23,7 +23,13 @@
 	</div>
 	<?php endif; ?>
 	
-<?php wp_footer(); ?>
-	
+<?php wp_footer();
+if(is_front_page()):
+?>
+
+    <?php
+endif;
+?>
+    <script src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
 </body>
 </html>
