@@ -419,3 +419,49 @@ state
 .footer-container{
     display: none;
 }
+
+.logo-fig{
+    position: absolute;
+}
+.show-izq{
+    -webkit-animation: move-izq .7s ease forwards;
+    -moz-animation: move-izq .7s ease forwards;
+    -ms-animation: move-izq .7s ease forwards;
+    -o-animation: move-izq .7s ease forwards;
+    animation: move-izq .7s ease forwards;
+}
+.show-izq-hidden{
+    -webkit-animation: move-izq-hidden .7s ease forwards;
+    -moz-animation: move-izq-hidden .7s ease forwards;
+    -ms-animation: move-izq-hidden .7s ease forwards;
+    -o-animation: move-izq-hidden .7s ease forwards;
+    animation: move-izq-hidden .7s ease forwards;
+}
+@-webkit-keyframes move-izq{
+    from{ left: -100%; }
+    to { left: 0; }
+}
+
+@-moz-keyframes move-izq {
+    from{ left: -100%; }
+    to { left: 0; }
+}
+
+@-ms-keyframes move-izq {
+    from {left: -100%; }
+    to {left: 0;}
+}
+@-webkit-keyframes move-izq-hidden{
+    from{ left: 0; }
+    to { left: -100%; }
+}
+
+@-moz-keyframes move-izq-hidden {
+    from{ left: 0; }
+    to { left: -100%; }
+}
+
+@-ms-keyframes move-izq-hidden {
+    from{ left: 0; }
+    to { left: -100%; }
+}

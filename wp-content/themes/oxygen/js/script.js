@@ -10,8 +10,7 @@ var d = document,
 var timeVar =setInterval(function(){myTimer()},5000);
 
 function myTimer() {
-
-    numberCurrent = (numberCurrent == Number(slideLi.length-1))? 0 :numberCurrent + 1;
+    numberCurrent = (numberCurrent == Number(slideLi.length-1))? 0 : Number(numberCurrent) + 1;
     slideCurrent = slideLi[numberCurrent];
     createSlide(navSlideLi[numberCurrent]);
 
@@ -20,26 +19,27 @@ function myTimer() {
 var slideF = function slideF(e) {
     e.preventDefault();
     numberCurrent = this.dataset.order;
-    slideCurrent = slideLi[this.dataset.order];
-
-
-    clearInterval(timeVar);
-    timeVar = setInterval(myTimer, 5000);
+    slideCurrent = slideLi[numberCurrent];
     if (slideCurrent.className != "select-li") {
         createSlide(this);
     }
+    clearInterval(timeVar);
+    timeVar = setInterval(myTimer, 5000);
+
 }
 
 function createSlide(element){
     slideSelect = d.querySelector('.select-li');
-    var slideSelectContend = slideSelect.querySelector('.slide-contend');
+    var slideSelectContend = slideSelect.querySelector('.slide-contend'),
+        figure = slideSelect.querySelector('figure');
 
+    figure.classList.remove('show-izq');
+    figure.classList.add('show-izq-hidden');
     slideSelectContend.classList.remove('show-move');
     slideSelectContend.classList.add('hidden-move');
 
     removeClassSelector(navSlideLi, 'selected');
     element.classList.add('selected');
-    console.log(slideSelectContend)
     slideSelectContend.addEventListener("webkitAnimationEnd", AnimationListener, false);
     slideSelectContend.addEventListener("animationend", AnimationListener,false);
     slideSelectContend.addEventListener("oanimationend", AnimationListener,false);
@@ -49,6 +49,8 @@ function createSlide(element){
 function AnimationListener(e) {
     slideSelect.classList.remove('select-li');
     slideCurrent.classList.add('select-li');
+    slideCurrent.querySelector('figure').classList.remove('show-izq-hidden');
+    slideCurrent.querySelector('figure').classList.add('show-izq');
     slideCurrent.querySelector('.slide-contend').classList.remove('hidden-move');
     slideCurrent.querySelector('.slide-contend').classList.add('show-move');
 

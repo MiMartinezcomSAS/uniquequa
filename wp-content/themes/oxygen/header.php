@@ -24,10 +24,7 @@
 </head>
 <body <?php body_class(); ?>>
 <?php if(is_front_page()):?>
-
-
     <div >
-
         <ul id="slide-mm">
             <?php $home = new WP_Query('category_name=banner');
             $i = 0;
@@ -38,7 +35,7 @@
                 $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), false, '');
                 echo $src[0];
                 ?>">
-                    <figure class="logo-fig">
+                    <figure  class="logo-fig .show-izq">
                         <img class="logo" src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" alt=""/>
                     </figure>
                     <div class="slide-contend show-move">
