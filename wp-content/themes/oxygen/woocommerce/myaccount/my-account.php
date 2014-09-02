@@ -18,7 +18,7 @@ do_action('laborator_woocommerce_before_wrapper');
 <div class="row">
     <div class="col-lg-12">
         <div class="white-block block-pad my-account">
-            <h1><?php _e('My Account', TD); ?></h1>
+            <h1><?php _e('Mi Cuenta', TD); ?></h1>
             
             <p class="myaccount_user">
 				<?php

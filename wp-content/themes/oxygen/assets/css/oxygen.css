@@ -20930,8 +20930,8 @@ footer-sidebar
     text-align: center;
 }
 #network li a:hover{
-    color: #29292b;
-    border-color:  #29292b ;
+    color: #fff;
+    border-color:  #fff ;
 }
 @font-face {
     font-family: 'icomoon';
