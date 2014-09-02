@@ -131,7 +131,7 @@ footer .footer_main .footer-nav ul li a,
 .lab_wpb_lookbook_carousel .lookbook-carousel .product-item .lookbook-hover-info .lookbook-inner-content .title,
 .lab_wpb_lookbook_carousel .lookbook-carousel .product-item .lookbook-hover-info .lookbook-inner-content .price-and-add-to-cart .price > .amount,
 .lab_wpb_lookbook_carousel .lookbook-carousel .product-item .lookbook-hover-info .lookbook-inner-content .price-and-add-to-cart .price ins {
-  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 .to-none,
 .main-sidebar ul.nav a,
@@ -8643,9 +8643,6 @@ textarea.has-errors {
 }
 .shop .items .item-wrapper .item {
   position: relative;
-  -moz-box-shadow: 0px 0px 2px rgba(204, 204, 204, 0.5);
-  -webkit-box-shadow: 0px 0px 2px rgba(204, 204, 204, 0.5);
-  box-shadow: 0px 0px 2px rgba(204, 204, 204, 0.5);
 }
 .shop .items .item-wrapper .item .rating {
   bottom: 20px;
@@ -8781,7 +8778,7 @@ textarea.has-errors {
 .shop .items .item-wrapper .item .quick-view a {
   display: block;
   font-size: 85%;
-  background: #dd1f26;
+  background: #3f3f3f;
   color: #FFF;
   padding: 3px 5px;
   visibility: hidden;
@@ -8870,8 +8867,9 @@ textarea.has-errors {
   margin-bottom: 8px;
 }
 .shop .items .item-wrapper .item .description .price {
-  color: #dd1f26;
-  font-size: 17px;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: -10px;
 }
 .shop .items .item-wrapper .item .description .price .real_price {
   color: #666666;
@@ -10284,7 +10282,8 @@ ul.social-networks li a:hover.icon-social-vkontakte {
   margin-top: 20px;
 }
 .header-cart .cart-items .cart-item {
-  background: #FFF;
+  background: rgba(46,46,46, 0.2);
+  border: 1px solid rgba(46,46,46, 0.3);
 }
 .header-cart .cart-items .cart-item:before,
 .header-cart .cart-items .cart-item:after {
@@ -10310,6 +10309,7 @@ ul.social-networks li a:hover.icon-social-vkontakte {
 }
 .header-cart .cart-items .cart-item .details .title {
   display: block;
+  color: #5e5e5e;
   font-size: 123%;
   padding: 10px;
   -moz-transition: all 350ms ease-in-out;
@@ -10318,7 +10318,7 @@ ul.social-networks li a:hover.icon-social-vkontakte {
   transition: all 350ms ease-in-out;
 }
 .header-cart .cart-items .cart-item .details .title:hover {
-  color: #dd1f26;
+  color: #000;
 }
 .header-cart .cart-items .cart-item .details .price-quantity {
   position: absolute;
@@ -10350,11 +10350,12 @@ ul.social-networks li a:hover.icon-social-vkontakte {
 .header-cart .cart-items .cart-item .details .price-quantity .price ins,
 .header-cart .cart-items .cart-item .details .price-quantity .price > .amount {
   text-decoration: none;
-  color: #dd1f26;
-  font-size: 115%;
+  color: #000;
+  font-size: 150%;
 }
 .header-cart .cart-items .cart-item .details .price-quantity .quantity {
   float: right;
+  color: #000;
 }
 .header-cart .cart-items .owl-item > div {
   width: 100%;
@@ -17727,7 +17728,7 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
 }
 .laborator-woocommerce .items .product .white-block .price del {
   float: right;
-  color: #666666;
+  color: #bababa;
   font-weight: 300;
   color: #555;
   text-decoration: line-through;
@@ -17735,7 +17736,7 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
   margin-top: 3px;
 }
 .laborator-woocommerce .items .product .white-block .price del span {
-  color: #666666 !important;
+  color: #bababa !important;
 }
 .laborator-woocommerce .items .product .white-block .price ins {
   text-decoration: none;

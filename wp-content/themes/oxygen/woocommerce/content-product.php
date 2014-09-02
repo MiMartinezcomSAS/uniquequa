@@ -205,7 +205,7 @@ if($product_images)
 				<div class="quick-view">
 					<a href="#">
 						<i class="entypo-popup"></i>
-						<?php _e('Quick View', TD); ?>
+						<?php _e('Vista Rapida', TD); ?>
 					</a>
 				</div>
 				<?php endif; ?>

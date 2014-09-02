@@ -590,7 +590,7 @@ $font_primary_list = array(
 	"Roboto Slab"         => "Roboto Slab",
 	"Playfair Display"    => "Playfair Display",
 	"Montserrat"          => "Montserrat",
-	"Raleway"             => "Raleway"
+	"Questrial"           => "Questrial"
 );
 
 $font_secondary_list = array(
@@ -598,7 +598,7 @@ $font_secondary_list = array(
 	"Roboto Slab"         => "Roboto Slab",
 	"Playfair Display"    => "Playfair Display",
 	"Montserrat"          => "Montserrat",
-	"Raleway"             => "Raleway",
+	"Questrial"           => "Questrial",
 	"Arimo"               => "Arimo"
 );
 

@@ -83,7 +83,7 @@ $cart = array_reverse(WC()->cart->get_cart());
 							<span class="price"><?php echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); ?></span>
 							<?php endif; ?>
 							
-							<span class="quantity"><?php _e( sprintf("Q: %d", $quantity) ); ?></span>
+							<span class="quantity"><?php _e( sprintf("Cantidad: %d", $quantity) ); ?></span>
 						</div>
 					</div>
 				</div>
