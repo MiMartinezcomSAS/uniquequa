@@ -71,19 +71,19 @@ if( isset($quickview_wp_query))
 								<?php if ( $product->is_on_sale() ) : ?>
 									<div class="ribbon">
 										<div class="ribbon-content">
-											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Sale', 'woocommerce' ) . '</span>', $post, $product ); ?>
+											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Promoción', 'woocommerce' ) . '</span>', $post, $product ); ?>
 										</div>
 									</div>
 								<?php elseif($product->is_in_stock() == false): ?>
 									<div class="ribbon out-of-stock">
 										<div class="ribbon-content">
-											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="outofstock">' . __( 'Out of Stock', 'woocommerce' ) . '</span>', $post, $product ); ?>
+											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="outofstock">' . __( 'Agotado', 'woocommerce' ) . '</span>', $post, $product ); ?>
 										</div>
 									</div>
 								<?php elseif($product->is_featured() && get_data('shop_featured_product_ribbon_show')): ?>
 									<div class="ribbon product-featured">
 										<div class="ribbon-content">
-											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="featured">' . __( 'Featured', 'woocommerce' ) . '</span>', $post, $product ); ?>
+											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="featured">' . __( 'Destacado', 'woocommerce' ) . '</span>', $post, $product ); ?>
 										</div>
 									</div>
 								<?php endif; ?>
@@ -136,7 +136,7 @@ if( isset($quickview_wp_query))
 								
 								<a href="<?php the_permalink(); ?>" class="btn btn-default view-more">
 									<i class="entypo-eye"></i>
-									<?php _e('View Product', TD); ?>
+									<?php _e('Ver producto', TD); ?>
 								</a>
 								
 								<?php wc_get_template('single-product/share.php'); ?>

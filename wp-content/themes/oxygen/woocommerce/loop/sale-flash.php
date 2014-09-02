@@ -21,7 +21,7 @@ if( ! get_data('shop_sale_ribbon_show'))
 		'<div class="sale_tag">
 			<div class="ribbon">
 				<strong class="ribbon-content">
-					<span>' . __( 'Sale', 'woocommerce' ) . '</span>
+					<span>' . __( 'Promoción', 'woocommerce' ) . '</span>
 				</strong>
 			</div>
 		</div>', $post, $product 
@@ -35,7 +35,7 @@ if( ! get_data('shop_sale_ribbon_show'))
 		<div class="sale_tag stock-out">
 			<div class="ribbon">
 				<strong class="ribbon-content">
-					<span><?php _e( 'Out of Stock', 'woocommerce' ) ; ?></span>
+					<span><?php _e( 'Agotado', 'woocommerce' ) ; ?></span>
 				</strong>
 			</div>
 		</div>

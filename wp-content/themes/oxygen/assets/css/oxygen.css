@@ -8780,7 +8780,7 @@ textarea.has-errors {
   font-size: 85%;
   background: #3f3f3f;
   color: #FFF;
-  padding: 3px 5px;
+  padding: 3px 7px;
   visibility: hidden;
   left: -10px;
   zoom: 1;
@@ -8868,12 +8868,11 @@ textarea.has-errors {
 }
 .shop .items .item-wrapper .item .description .price {
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: -10px;
 }
 .shop .items .item-wrapper .item .description .price .real_price {
   color: #666666;
-  font-weight: 300;
   color: #555;
   text-decoration: line-through;
 }
@@ -8894,7 +8893,7 @@ textarea.has-errors {
 }
 .shop .shop-grid .quickview-list .quickview-entry .quickview-wrapper {
   padding: 20px;
-  background: #FFF;
+  background: #393939;
   -moz-transition: all 350ms ease-in-out;
   -o-transition: all 350ms ease-in-out;
   -webkit-transition: all 350ms ease-in-out;
@@ -9425,9 +9424,9 @@ footer {
   width: 100%;
 }
 footer .divider {
-  height: 1px;
-  border-width: 1px;
-  border-color: #DDD;
+  height: 0px;
+  border-width: 0px;
+  border-color: #393939;
   margin: 20px 0;
 }
 footer.footer_widgets {
@@ -14503,7 +14502,7 @@ fieldset[disabled] .comment-respond input#submit {
 .laborator-woocommerce .product-single .entry-summary .entry-title {
   font-size: 27px;
   margin: 0;
-  color: #222222;
+  color: #fff;
   margin-bottom: 5px;
 }
 .laborator-woocommerce .product-single .entry-summary div[itemprop="description"] {
@@ -14575,9 +14574,10 @@ fieldset[disabled] .comment-respond input#submit {
   display: block;
   position: relative;
   font-size: 40px;
-  color: #dd1f26;
+  color: #fff;
   font-weight: 400;
   text-decoration: none;
+  margin-top: 20px;
 }
 .laborator-woocommerce .product-single .entry-summary .price:before,
 .laborator-woocommerce .product-single .entry-summary .price:after {
