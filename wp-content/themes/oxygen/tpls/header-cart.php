@@ -24,7 +24,7 @@ $cart = array_reverse(WC()->cart->get_cart());
 			
 				?>
 				<div class="no-items">
-					<?php _e('Your cart is empty!', TD); ?>
+					<?php _e('Tu carrito de compras esta vacio!', TD); ?>
 				</div>
 				<?php
 			
@@ -99,7 +99,7 @@ $cart = array_reverse(WC()->cart->get_cart());
 	<div class="col-md-2 col-sm-3">
 				
     	<a class="btn btn-block btn-gray" href="<?php echo CARTURL; ?>">
-    		<?php _e('View Cart', TD); ?> 
+    		<?php _e('Carro de compras', TD); ?> 
     		<span class="glyphicon bucket-icon"></span>
     	</a>
     	
@@ -109,7 +109,7 @@ $cart = array_reverse(WC()->cart->get_cart());
    		</a>
    		
    		<div class="cart-sub-total">
-   			<?php _e('Cart subtotal', TD); ?>: 
+   			<?php _e('Subtotal', TD); ?>: 
    			<span><?php echo WC()->cart->get_cart_subtotal(); ?></span>
    		</div>
 		

@@ -39,7 +39,11 @@
         <div class="shopping-contend">
             <span class="price">$ 0.000</span>
             <span class="item">0 - items</span>
-        </div>
+            <div class="cart-sub-total">
+   			<?php _e('Subtotal', TD); ?>: 
+   			<span><?php echo WC()->cart->get_cart_subtotal(); ?></span>
+   		</div>
+   		</div>
         <span>►</span>
     </div>
     <hr/>
