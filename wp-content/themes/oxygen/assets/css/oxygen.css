@@ -19952,10 +19952,10 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
   margin-top: -1px;
 }
 .mobile-menu .nav {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #48494a;
 }
 .mobile-menu.visible .nav > li > a {
-  color: #222222;
+  color: #898989;
 }
 .mobile-menu .nav {
   display: block;
@@ -19969,7 +19969,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
   margin: 0;
   display: block;
   position: relative;
-  background: #FFF;
+  background: #3a3b3d;
   -webkit-backface-visibility: hidden;
 }
 .mobile-menu .nav > li.visible > ul > li > a {
@@ -20118,7 +20118,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 }
 .mobile-menu .nav > li > a {
   padding: 12px 15px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #3a3b3d;
 }
 .mobile-menu .nav > li ul li a .expand {
   border-left-color: #e9e9e9;
@@ -20266,7 +20266,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
   .oxygen-top-menu .top-menu > .main .tl-header .logo .mobile-menu-link > a.opened,
   .oxygen-sidebar-menu .main-sidebar .sidebar-inner .logo .mobile-menu-link > a.opened,
   .oxygen-top-menu > .wrapper > .top-menu-centered > .main .logo .mobile-menu-link > a.opened {
-    background: #333;
+    background: none;
     color: #FFF;
   }
   .oxygen-sidebar-menu .wrapper > .main {
