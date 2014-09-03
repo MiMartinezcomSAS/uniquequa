@@ -20883,9 +20883,9 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 }
 #shopping-contend span{
     color: #949494;
-    display: inline-block;
-    font-size: .95rem;
-    margin-left: -3px;
+        display: inline-block;
+        font-size: .95rem;
+        margin-left: -3px;
 
     width: 36%;
 }
@@ -21005,4 +21005,39 @@ footer-sidebar
 
 #network ul{
     padding: 0;
+}
+
+@media (min-width: 768px) {
+    .menu-item:hover  {
+       background: #29292b;
+    }
+    .menu-item:hover ul {
+        display: block;
+    }
+    .menu-item ul span{
+        display: block;
+    }
+    .menu-item ul {
+        background: #29292b;
+        display: none;
+        left: 100%;
+        position: absolute;
+        top: -20px;
+        width: 180px;
+    }
+    .menu-item ul li {
+        padding: 0;
+        width: auto;
+        margin: 0 auto;
+    }
+    .menu-item ul li:hover a {
+        background: red;
+    }
+    .menu-item ul li a{
+        display: block;
+    }
+
+    .main-sidebar {
+        overflow: visible !important;
+    }
 }
