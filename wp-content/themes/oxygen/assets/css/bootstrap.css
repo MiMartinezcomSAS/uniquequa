@@ -4749,7 +4749,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 .panel {
   margin-bottom: 19px;
-  background-color: #ffffff;
+  background-color: none;
   border: 1px solid transparent;
   border-radius: 0px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);

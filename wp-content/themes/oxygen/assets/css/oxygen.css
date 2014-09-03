@@ -6989,7 +6989,7 @@ th {
 }
 .arimo,
 p {
-  color: #666;
+  color: #d1d1d1;
   font-weight: 300;
 }
 .logo h3 {
@@ -8956,7 +8956,7 @@ textarea.has-errors {
 .shop .shop-grid .quickview-list .quickview-entry .quickview-wrapper .product-gallery-env .ribbon {
   position: absolute;
   text-align: center;
-  background: #fff;
+  background: #2f2f2f;
   padding: 40px 0;
   width: 50px;
   top: -20px;
@@ -15089,10 +15089,11 @@ fieldset[disabled] .laborator-woocommerce .product-single .entry-summary .quanti
   -o-transition: all 350ms ease-in-out;
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
+  color: #999999;
 }
 .laborator-woocommerce .product-single .woocommerce-tabs .tabs > li.active a {
-  border-bottom-color: #fff;
-  color: #222222;
+  border-bottom-color: none;
+  color: #e6e6e6;
 }
 .laborator-woocommerce .product-single .woocommerce-tabs .tabs > li:first-child {
   padding-left: 0px;
