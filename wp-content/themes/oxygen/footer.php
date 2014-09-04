@@ -30,6 +30,23 @@ if(is_front_page()):
     <?php
 endif;
 ?>
+    <div class="footer-sidebar-responsive">
+        <nav id="network">
+            <ul>
+                <li><a href="https://www.facebook.com/uniquecondones"><span class="icon-facebook"></span></a></li>
+                <li><a href="https://twitter.com/CondonesUnique"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-googleplus"></span></a></li>
+                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                <li><a href="#"><span class="icon-youtube"></span></a></li>
+            </ul>
+        </nav>
+        <p class="first"> ©Unique Condoms - 2014 </p>
+
+        <p> Todos los derechos reservados </p>
+
+        <p>Diseño y desarrollo web: <a href="http://mi-martinez.com" target="_blank" title="Agencia de publicidad en Bogota" alt="Agencia de publicidad en Bogota"> <span
+                    class="icons-fuentelogo"></span></a></p>
+    </div>
     <script src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
     <script>
         var submenu = document.querySelectorAll('.sub-menu li');
@@ -46,5 +63,6 @@ endif;
 
         }
     </script>
+
 </body>
 </html>
