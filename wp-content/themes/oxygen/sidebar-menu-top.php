@@ -230,3 +230,6 @@ if( ! isset($nav_menu_locations['main-menu']) || $nav_menu_locations['main-menu'
 	
 </div>
 <?php endif; # END OF: Header Type 4 ?>
+<script>
+    
+</script>

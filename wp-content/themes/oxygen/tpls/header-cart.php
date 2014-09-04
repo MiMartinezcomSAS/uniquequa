@@ -118,6 +118,8 @@ $cart = array_reverse(WC()->cart->get_cart());
 
 <?php if(count($cart)): ?>
 <script type="text/javascript">
+
+
 jQuery(document).ready(function($)
 {
 	var $hc = $(".header-cart");

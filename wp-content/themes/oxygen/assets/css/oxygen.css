@@ -5493,7 +5493,7 @@ hr {
 }
 .main-sidebar ul.nav a {
   color: #d5d5d5;
-  padding: 7px 22px;
+  padding: 7px 5px;
   font-family:'Questrial', sans-serif;
   font-weight: 400;
   font-size: 1.1em;
@@ -21029,9 +21029,17 @@ footer-sidebar
         padding: 0;
         width: auto;
         margin: 0 auto;
+        font-size: 19px;
+    }
+    .menu-item ul li a{
+        font-size: 19px !important;
+    }
+
+    .menu-item ul li a span{
+        font-size: 14px !important;
     }
     .menu-item ul li:hover a {
-        background: red;
+        font-size: 19px ;
     }
     .menu-item ul li a{
         display: block;
@@ -21039,5 +21047,24 @@ footer-sidebar
 
     .main-sidebar {
         overflow: visible !important;
+    }
+}
+@media (max-width: 768px) {
+#shopping{
+    display: none;
+}
+.footer-sidebar,.sidebar-inner hr{
+    background: #3a3b3d;
+    bottom: 0;
+    position: fixed;
+}
+    .footer-sidebar p{
+    }
+    .footer-sidebar hr{
+        display: none;
+    }
+    .footer-sidebar ul{
+        margin-top: 10px;
+        margin-bottom: -4px;
     }
 }
