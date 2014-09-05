@@ -511,7 +511,7 @@ p {
     line-height: 1.4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .lead {
         font-size: 20.175px;
     }
@@ -24538,7 +24538,7 @@ footer-sidebar
     padding: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .menu-item:hover {
         background: #29292b;
     }
@@ -24590,7 +24590,7 @@ footer-sidebar
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     #shopping, .footer-sidebar {
         display: none;
     }
