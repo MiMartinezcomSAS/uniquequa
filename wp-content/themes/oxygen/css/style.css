@@ -465,3 +465,15 @@ state
     from{ left: 0; }
     to { left: -100%; }
 }
+
+@media (max-width: 700px) {
+    .slide-contend{
+        margin-right: -273px !important;
+        right: 50% !important;
+
+    }
+    #nav-slide{
+        right: 0;
+        width: 100%;
+    }
+}
