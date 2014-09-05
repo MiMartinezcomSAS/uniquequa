@@ -24600,7 +24600,7 @@ footer-sidebar
         bottom: 0;
     }
 
-    .footer-sidebar-responsive p {
+     p {
     }
 
     .footer-sidebar-responsive hr {
@@ -24613,6 +24613,22 @@ footer-sidebar
     }
 }
 
+@media (max-width: 700px) {
+    .footer-sidebar-responsive{
+        display: block !important;
+    }
+    #network{
+        padding: 3px 0 10px 0;
+    }
+}
+.footer-sidebar-responsive{
+    display: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-sidebar-responsive p{
+    margin:0;
+    font-size:10px;
 
-
+}
 
