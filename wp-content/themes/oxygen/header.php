@@ -36,7 +36,7 @@
                 echo $src[0];
                 ?>">
                     <figure  class="logo-fig .show-izq">
-                        <img class="logo" src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" alt=""/>
+                        <img class="logo-q" src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" alt=""/>
                     </figure>
                     <div class="slide-contend show-move">
                         <?php the_content(); ?>
