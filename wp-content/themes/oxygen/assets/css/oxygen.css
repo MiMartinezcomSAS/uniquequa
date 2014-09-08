@@ -951,7 +951,7 @@ table th[class*="col-"] {
     background-color: #faf2cc;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .table-responsive {
         width: 100%;
         margin-bottom: 14.25px;
@@ -23548,13 +23548,13 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     height: 20px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 769px) {
     .oxygen-top-menu .mobile-menu {
         display: none;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .top-menu {
         position: relative;
         z-index: 500;
@@ -23678,7 +23678,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .main {
         padding: 0px;
     }
@@ -24083,7 +24083,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .oxygen-top-menu > .wrapper > .top-menu > .main .tl-header .sec-nav {
         display: none;
     }

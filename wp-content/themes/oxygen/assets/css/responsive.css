@@ -22,7 +22,7 @@
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 800px) and (max-width: 991px) {
   .oxygen-top-menu > .wrapper > .main-menu-top > .main .main-menu-env .nav > li {
     margin-right: 15px;
   }
@@ -42,7 +42,7 @@
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   .clear-sm {
     clear: both;
   }
