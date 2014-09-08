@@ -6070,7 +6070,7 @@ hr {
     left: 0;
     top: 0;
     bottom: 0;
-    background: #3a3b3d;
+    background: #2e2e2e ;
     background-image: url(../images/textura-menu.png);
     z-index: 50;
     margin-left: 30px;
@@ -23331,7 +23331,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 .mobile-menu .nav > li a > span.expand i {
     display: block;
     position: relative;
-    color: #222222;
+    color: #fff;
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -23344,7 +23344,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 }
 
 .mobile-menu .nav > li a > span.expand:hover {
-    background: #333;
+    background: #2e2e2e;
 }
 
 .mobile-menu .nav > li a > span.expand:hover i {
@@ -23373,7 +23373,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     margin: 0;
     display: block;
     position: relative;
-    background: #FFF;
+    background: #2e2e2e;
     -webkit-backface-visibility: hidden;
 }
 
@@ -23520,10 +23520,10 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 
 .mobile-menu .cart-items {
     display: block;
-    background: #FFF;
+    background: #2e2e2e ;
     padding: 15px 15px;
     -webkit-backface-visibility: hidden;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #000000;
     -moz-transition: all 350ms ease-in-out;
     -o-transition: all 350ms ease-in-out;
     -webkit-transition: all 350ms ease-in-out;
