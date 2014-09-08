@@ -46,43 +46,6 @@
 }
 
 
-*:focus {
-    outline: 0;
-}
-a {
-    text-decoration: none;
-}
-body {
-    background: #000;
-    font-family: 'Questrial', sans-serif;
-    font-size: 16px;
-}
-body, h2, h3, h4, p {
-    font-weight: 300
-}
-*:focus {
-    outline: 0;
-}
-li {
-    list-style: none;
-}
-h1, h2, h3, h4, ul, p{
-    margin: 0;
-    padding: 0;
-}
-html, body {
-    height: 100%;
-    margin: 0;
-    width: 100%;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-/*=================================================================
-Background
-===================================================================*/
 
 #slide-mm{
     background: url("../images/banner/fondo.jpg") center;
@@ -466,7 +429,7 @@ state
     to { left: -100%; }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .slide-contend{
         margin-right: -273px !important;
         right: 50% !important;
