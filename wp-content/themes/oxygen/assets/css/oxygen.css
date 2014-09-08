@@ -24637,4 +24637,8 @@ footer-sidebar
     font-size:10px;
 
 }
+.promotion-mm span{
+    font-size: 13px !important;
+    margin-top: -5px !important;
+}
 
