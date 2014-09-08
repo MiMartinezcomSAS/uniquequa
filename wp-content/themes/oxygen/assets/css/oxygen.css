@@ -9957,13 +9957,23 @@ textarea.has-errors {
 }
 
 .shop .items .item-wrapper .item .sale_tag.stock-out .ribbon {
-    padding-top: 60px;
+    padding-top: 35px;
     padding-bottom: 20px;
     background: #999999;
+
+}
+
+.shop .items .item-wrapper .item .sale_tag .ribbon {
+    padding-top: 48px;
+    padding-bottom: 20px;
+
 }
 
 .shop .items .item-wrapper .item .sale_tag.stock-out .ribbon .ribbon-content span {
     font-size: 12px;
+}.shop .items .item-wrapper .item .sale_tag .ribbon .ribbon-content span {
+    font-size: 12px;
+
 }
 
 .shop .items .item-wrapper .item .sale_tag.stock-out .ribbon .ribbon-content:after {
@@ -10112,6 +10122,7 @@ textarea.has-errors {
 }
 
 .shop .items .item-wrapper .item .description {
+    background: url("../images/textura-menu.png");
     padding: 13px;
 }
 
@@ -24642,3 +24653,44 @@ footer-sidebar
     margin-top: -5px !important;
 }
 
+@font-face {
+    font-family: 'fontello-mm';
+    src: url('../fonts/mi-fontello.eot?42607942');
+    src: url('../fonts/mi-fontello.eot?42607942#iefix') format('embedded-opentype'),
+    url('../fonts/mi-fontello.woff?42607942') format('woff'),
+    url('../fonts/mi-fontello.ttf?42607942') format('truetype'),
+    url('../fonts/mi-fontello.svg?42607942#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-nmm"]:before, [class*=" iconmm-"]:before {
+    font-family: "fontello-mm";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    margin-left: .2em;
+
+}
+
+.iconmm-basket-1:before { content: '\62d'; } /* 'b' */
+.iconmm-basket-2:before { content: '\63d'; } /* 'c' */
+.iconmm-cart:before { content: '\64'; } /* 'd' */
+.iconmm-basket-3:before { content: '\65d'; } /* 'e' */
+.iconmm-basket-circled:before { content: '\66d'; } /* 'f' */
+.iconmm-user:before { content: '\67d'; } /* 'g' */
+.iconmm-phone:before { content: '\68d'; } /* 'h' */
+.iconmm-attention:before { content: '\69d'; } /* 'i' */
+.iconmm-basket:before { content: '\e800d'; } /* '' */

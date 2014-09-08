@@ -35,7 +35,7 @@ if( ! get_data('shop_add_to_cart_listing'))
 <a class="add-to-cart-btn entypo-export" data-toggle="tooltip" data-placement="bottom" title="<?php echo $product->single_add_to_cart_text(); ?>" href="<?php echo $product->get_product_url(); ?>" target="_blank"></a>
 
 <?php else: ?>
-<a class="add-to-cart-btn add-to-cart glyphicon glyphicon-plus-sign" data-id="<?php echo $product->post->ID; ?>" data-toggle="tooltip" data-placement="bottom" title="<?php _e('Agregar al Carrito', TD); ?>" href="#">
-	<span class="glyphicon glyphicon-ok-sign"></span>
+<a class="add-to-cart-btn add-to-cart iconmm-cart" data-id="<?php echo $product->post->ID; ?>" data-toggle="tooltip" data-placement="bottom" title="<?php _e('Agregar al Carrito', TD); ?>" href="#">
+	<span class=" "></span>
 </a>
 <?php endif; ?>
