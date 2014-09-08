@@ -24598,6 +24598,7 @@ footer-sidebar
     .footer-sidebar-responsive, .sidebar-inner hr {
         background: #3a3b3d;
         bottom: 0;
+        display: none;
     }
 
      p {
