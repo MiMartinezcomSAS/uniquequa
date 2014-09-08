@@ -24613,7 +24613,7 @@ footer-sidebar
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .footer-sidebar-responsive{
         display: block !important;
     }
