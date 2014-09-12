@@ -23545,7 +23545,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     float: right;
     display: block;
     background: #fff;
-    color: #FFF;
+    color: #000;
     -webkit-border-radius: 50%;
     -webkit-background-clip: padding-box;
     -moz-border-radius: 50%;
@@ -23556,7 +23556,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     min-width: 20px;
     font-size: 92%;
     line-height: 19px;
-    height: 20px;
+    height: 19px;
 }
 
 @media screen and (min-width: 769px) {
@@ -24625,7 +24625,7 @@ footer-sidebar
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .footer-sidebar-responsive{
         display: block !important;
     }
