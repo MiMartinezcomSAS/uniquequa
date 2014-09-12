@@ -35,8 +35,7 @@ endif;
             <ul>
                 <li><a href="https://www.facebook.com/uniquecondones"><span class="icon-facebook"></span></a></li>
                 <li><a href="https://twitter.com/CondonesUnique"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-googleplus"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+
                 <li><a href="#"><span class="icon-youtube"></span></a></li>
             </ul>
         </nav>
