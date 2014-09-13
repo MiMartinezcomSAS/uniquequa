@@ -1,4 +1,5 @@
 var d = document,
+    preload = d.querySelector('.preload-home'),
     slide = d.querySelector('#slide-mm'),
     slideLi = d.querySelectorAll('#slide-mm li'),
     navSlide = d.getElementById("nav-slide"),
@@ -8,7 +9,9 @@ var d = document,
     numberCurrent = 0;
 //
 var timeVar =setInterval(function(){myTimer()},5000);
-
+function preloader(){
+    preload.classList.add('opacity');
+}
 function myTimer() {
     numberCurrent = (numberCurrent == Number(slideLi.length-1))? 0 : Number(numberCurrent) + 1;
     slideCurrent = slideLi[numberCurrent];

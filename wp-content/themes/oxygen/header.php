@@ -22,8 +22,13 @@
     ?>
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onLoad="javascript:preloader()">
 <?php if(is_front_page()):?>
+    <div class="preload-home">
+        <div class="gif-preload">
+            <img src="<?php bloginfo('template_directory'); ?>/images/loader.gif" alt=""/>
+        </div>
+    </div>
     <div >
         <ul id="slide-mm">
             <?php $home = new WP_Query('category_name=banner');
