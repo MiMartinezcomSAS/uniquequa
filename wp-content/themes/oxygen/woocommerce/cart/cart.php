@@ -28,7 +28,7 @@ do_action('laborator_woocommerce_before_wrapper');
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="white-block block-pad">
-				<h1><?php _e('Shopping Cart', TD); ?></h1>
+				<h1><?php _e('Carro de compras', TD); ?></h1>
 				<span><?php echo sprintf(_n('%d item', '%d items', $cart_contents_count), $cart_contents_count); ?></span>
 			</div>
 		</div>
@@ -58,9 +58,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<!-- Cart -->
 				<div class="row spread cart-header-row cart-item-row">
 					
-					<div class="col-xs-7 col-sm-5 up"><?php _e('Product', TD); ?></div>
-					<div class="col-xs-2 up hide-sm"><?php _e('Price', TD); ?></div>
-					<div class="col-xs-3 up text-center-sm"><?php _e('Quantity', TD); ?></div>
+					<div class="col-xs-7 col-sm-5 up"><?php _e('Producto', TD); ?></div>
+					<div class="col-xs-2 up hide-sm"><?php _e('Precio', TD); ?></div>
+					<div class="col-xs-3 up text-center-sm"><?php _e('Cantidad', TD); ?></div>
 					<div class="col-xs-2 up text-right-sm"><?php _e('Total', TD); ?></div>
 					
 				</div>
@@ -200,7 +200,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		
 			<?php do_action( 'woocommerce_cart_contents' ); ?>
 			
-			<span class="up cart-totals-title"><?php _e('Cart Totals', TD); ?></span>
+			<span class="up cart-totals-title"><?php _e('Resumen de compras', TD); ?></span>
 			
 			<ul class="cart-totals">
 				<?php
@@ -285,7 +285,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 						<img src="<?php echo THEMEASSETS; ?>images/cutar_sep.png" />
 					</div>
 	
-					<label for="coupon_code up"><?php _e( 'Have a Coupon?', 'woocommerce' ); ?>:</label> 
+					<label for="coupon_code up"><?php _e( 'Tienes un cupón?', 'woocommerce' ); ?>:</label> 
 					
 					<form method="post" id="coupon-code-form">
 						
@@ -293,7 +293,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 							<input type="text" name="coupon_code" class="input-text form-control" value="" placeholder="<?php _e( 'Coupon code', 'woocommerce' ); ?>">
 							
 							<span class="input-group-btn">
-								<button type="submit" name="apply_coupon" class="btn btn-black"><?php _e('Apply', 'woocommerce'); ?></button>
+								<button type="submit" name="apply_coupon" class="btn btn-black"><?php _e('Aplicar', 'woocommerce'); ?></button>
 							</span>
 						</div>
 	

@@ -5963,7 +5963,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .nav {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -6124,15 +6124,25 @@ hr {
 }
 
 .main-sidebar ul.nav {
-    padding: 6px 0;
+    padding: 14px 0;
 }
 
-.main-sidebar ul.nav a {
+.main-sidebar ul.nav > a {
     color: #d5d5d5;
     padding: 7px 22px;
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
+}
+.main-sidebar ul.nav  ul a {
+    color: #d5d5d5;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 18px !important;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-bottom: 1px;
+    padding-right: 12px;
 }
 
 .main-sidebar ul.nav li > a:hover {
@@ -13741,8 +13751,8 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 .cart-env .cart-totals {
     position: relative;
     display: block;
-    background: #FFF;
-    padding: 5px 20px;
+    background: rgba(46, 46, 46, 0.8);
+    padding: 8px 20px;
     margin: 0;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -13753,7 +13763,6 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     display: block;
     padding: 0;
     margin: 0;
-    border-top: 1px solid #eeeeee;
     padding: 10px 0;
 }
 
@@ -13774,7 +13783,10 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 
 .cart-env .cart-totals > li.total,
 .cart-env .cart-totals > li.order-total {
-    border-top: 2px solid #222222;
+    border-top: 2px solid rgba(119, 119, 119, 0.24);
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: -10px;
 }
 
 .cart-env .cart-totals > li.total .value strong,
@@ -13831,12 +13843,12 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 
 .cart-env .cart-totals > li .name {
     float: left;
-    color: #222222;
+    color: #fff;
 }
 
 .cart-env .cart-totals > li .value {
     float: right;
-    color: #AAA;
+    color: #fff;
 }
 
 .cart-env .cart-totals > li .value .woocommerce-remove-coupon {
@@ -14017,11 +14029,14 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 
 .cart-env .cart-header-row {
     padding-bottom: 6px;
-    background: transparent !important;
+    background: rgba(46, 46, 46, 0.8);
+    color: #fff !important;
+    font-size: 16px;
+    padding: 5px;
 }
 
 .cart-env .cart-item-row {
-    background: #FFF;
+    background: rgba(46, 46, 46, 0.8);
     color: #666666;
     margin: 0;
     margin-right: 15px;
@@ -14049,7 +14064,8 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 .cart-env .cart-item-row .col.col-subtotal,
 .cart-env .cart-item-row .col.col-total {
     font-size: 123%;
-    color: #222222;
+    color: #fff;
+    font-size: 20px;
 }
 
 .cart-env .cart-item-row .col .item-thumb,
@@ -14069,7 +14085,9 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 
 .cart-env .cart-item-row .col .item-name .item-name-span {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    margin-left: 35px;
 }
 
 .cart-env .cart-item-row .col.col-thumb-name {
@@ -14081,7 +14099,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: -15px;
+    left: 100px;
     width: 30px;
     height: 30px;
     display: block;
@@ -14134,7 +14152,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #404040;
     color: #FFF;
     padding: 3px 10px;
     display: table-cell;
@@ -14339,7 +14357,7 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
 }
 
 .cart-env .cart-item-row .col .quantity input[type="button"]:hover {
-    background-color: #be1b21;
+    background-color: #808080;
 }
 
 .cart-env .cart-item-row .col .quantity input[type="button"].btn-bordered {
@@ -14355,10 +14373,10 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
 .cart-env .cart-item-row .col .quantity input.qty {
     position: relative;
     border: 0;
-    background: #b31b21;
+    background: #000;
     color: #FFF;
     text-align: center;
-    font-size: 92%;
+    font-size: 100%;
     width: 50px;
     display: table-cell;
 }
@@ -14396,24 +14414,22 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
 
 .cart-env .shipping_calculator {
     margin-top: 20px;
-    background: #FFF;
+    background: rgba(46, 46, 46, 0.8);
     padding-bottom: 10px;
     margin-top: 30px;
 }
 
 .cart-env .shipping_calculator h2 {
-    background: url(../images/calculate_shopping_icon.png) no-repeat 11px 8px;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0px;
-    padding: 10px 0 0 55px;
-    border-bottom: 2px solid #E9EAED;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding: 20px 0 0 27px;
+    margin-bottom: 7px;
 }
 
 .cart-env .shipping_calculator .shipping-calculator-form {
     display: block !important;
     padding: 10px;
+    margin-bottom: -10px;
 }
 
 .cart-env .shipping_calculator .shipping-calculator-form select {
@@ -14443,10 +14459,10 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
 
 .cart-env .shipping_calculator button[name="calc_shipping"] {
     position: absolute;
-    bottom: -15px;
-    left: 50%;
+    bottom: 26px;
+    left: 75%;
     width: 170px;
-    margin-left: -85px;
+    margin-left: -100px;
     padding: 5px 15px;
 }
 
@@ -16371,8 +16387,9 @@ fieldset[disabled] .comment-respond input#submit {
 .laborator-woocommerce .product-single .product-left-info .ribbon {
     position: absolute;
     text-align: center;
-    background: #fff;
-    padding: 40px 0;
+    background: #333;
+    padding-bottom: 27px;
+    padding-top: 57px;
     width: 50px;
     top: -20px;
     left: 20px;
@@ -16409,7 +16426,7 @@ fieldset[disabled] .comment-respond input#submit {
     height: 0px;
     border-style: solid;
     border-width: 20px 0 0 7px;
-    border-color: transparent transparent transparent #ac1a20;
+    border-color: transparent transparent transparent #000;
     display: block;
     content: '';
 }
@@ -16422,7 +16439,7 @@ fieldset[disabled] .comment-respond input#submit {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     color: #FFF;
-    font-size: 22px;
+    font-size: 16px;
     white-space: nowrap;
 }
 
@@ -16529,7 +16546,6 @@ fieldset[disabled] .comment-respond input#submit {
 }
 
 .laborator-woocommerce .product-single .product-left-info .product-images #main-image-slider .owl-wrapper-outer {
-    border: 1px solid #eeeeee;
     margin-bottom: 20px;
 }
 
@@ -16708,7 +16724,6 @@ fieldset[disabled] .comment-respond input#submit {
 
 .laborator-woocommerce .product-single .product-left-info .product-images .thumbnails .product-thumb span {
     display: block;
-    border: 1px solid #eeeeee;
     margin-bottom: 10px;
 }
 
@@ -16948,7 +16963,7 @@ fieldset[disabled] .comment-respond input#submit {
     top: 65px;
     font-weight: 400;
     color: #999;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .laborator-woocommerce .product-single .entry-summary .price del + ins {
@@ -17480,7 +17495,7 @@ fieldset[disabled] .laborator-woocommerce .product-single .entry-summary .quanti
 }
 
 .laborator-woocommerce .product-single .woocommerce-tabs {
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid rgba(238, 238, 238, 0.27);
     padding-top: 20px;
     margin-top: 10px;
 }
@@ -19821,8 +19836,8 @@ html body.right-sidebar .top-first .cart-ribbon {
     list-style: none;
     padding: 15px 20px;
     border-radius: 0px;
-    background-color: #06b53c;
-    border-color: #06b53c;
+    background-color: #000;
+    border-color: #000;
     color: #FFF;
 }
 
@@ -20290,6 +20305,11 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
 
 .laborator-woocommerce .middle-title {
     margin-bottom: 20px;
+    background: rgba(46, 46, 46, 0.8);
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 .laborator-woocommerce .login label[for="rememberme"] {
@@ -20681,7 +20701,7 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
     color: #555;
     text-decoration: line-through;
     margin-left: 5px;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 
 .laborator-woocommerce .items .product .white-block .price del span {
