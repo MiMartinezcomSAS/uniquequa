@@ -89,7 +89,6 @@ get_header( 'shop' ); ?>
 		<?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
 
 			<?php wc_get_template( 'loop/no-products-found.php' ); ?>
-
 		<?php endif; ?>
 
 	<?php

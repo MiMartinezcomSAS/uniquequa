@@ -231,7 +231,10 @@ if($product_images)
 			<h4 class="title">
 				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 			</h4>
-			
+			<div class="description-mm">
+			<?php wc_get_template_mm('single-product/short-description-mm.php'); ?>
+			</div>
+
 			<?php if(get_data('shop_product_category_listing')): ?>
 			<span class="type">
 				<?php the_terms($id, 'product_cat'); ?>

@@ -91,23 +91,23 @@ $blog_thumb_height = get_data('blog_thumbnail_height');
 
 laborator_img_add_size('blog-thumb-1', 410, 410, 1);
 laborator_img_add_size('blog-thumb-3', 300, 200, 1);
-laborator_img_add_size('shop-thumb-1', 325, 390, 4);
+laborator_img_add_size('shop-thumb-1', 420, 340, 4);
 laborator_img_add_size('shop-thumb-1-large', 500, 596, 4);
-laborator_img_add_size('shop-thumb-2', 90, 110, 4);
+laborator_img_add_size('shop-thumb-2', 110, 110, 4);
 laborator_img_add_size('shop-thumb-3', 105, 135, 4);
 laborator_img_add_size('shop-thumb-4', 580, 0, 0);
-laborator_img_add_size('shop-thumb-5', 135, 160, 4);
+laborator_img_add_size('shop-thumb-5', 135, 140, 4);
 laborator_img_add_size('shop-thumb-6', 500, 500, 3);
 
 add_image_size('blog-thumb-1', 410, 410, true);
 add_image_size('blog-thumb-3', 300, 200, true);
 
-add_image_size('shop-thumb-1', 325, 390, true);
+add_image_size('shop-thumb-1', 420, 340, true);
 add_image_size('shop-thumb-1-large', 500, 596, true);
-add_image_size('shop-thumb-2', 90, 110, true);
+add_image_size('shop-thumb-2', 110, 110, true);
 add_image_size('shop-thumb-3', 105, 135, true);
 add_image_size('shop-thumb-4', 580, 0);
-add_image_size('shop-thumb-5', 135, 160, true);
+add_image_size('shop-thumb-5', 135, 140, true);
 add_image_size('shop-thumb-6', 500, 500, true);
 
 

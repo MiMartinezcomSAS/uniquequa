@@ -107,6 +107,25 @@ function wc_get_template( $template_name, $args = array(), $template_path = '', 
 	do_action( 'woocommerce_after_template_part', $template_name, $template_path, $located, $args );
 }
 
+function wc_get_template_mm( $template_name, $args = array(), $template_path = '', $default_path = '' ) {
+	if ( $args && is_array( $args ) ) {
+		extract( $args );
+	}
+
+	$located = wc_locate_template( $template_name, $template_path, $default_path );
+
+	if ( ! file_exists( $located ) ) {
+		_doing_it_wrong( __FUNCTION__, sprintf( '<code>%s</code> does not exist.', $located ), '2.1' );
+		return;
+	}
+
+	do_action( 'woocommerce_before_template_part', $template_name, $template_path, $located, $args );
+
+	include( $located );
+
+	do_action( 'woocommerce_after_template_part', $template_name, $template_path, $located, $args );
+}
+
 /**
  * Locate a template and return the path for inclusion.
  *

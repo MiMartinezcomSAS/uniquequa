@@ -6129,7 +6129,7 @@ hr {
 
 .main-sidebar ul.nav a {
     color: #d5d5d5;
-    padding: 7px 5px;
+    padding: 7px 22px;
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
@@ -10122,7 +10122,7 @@ textarea.has-errors {
 }
 
 .shop .items .item-wrapper .item .description {
-    background: url("../images/textura-menu.png");
+    background: url("../images/textura-categorias.png");
     padding: 13px;
 }
 
@@ -10255,8 +10255,9 @@ textarea.has-errors {
     position: absolute;
     text-align: center;
     background: #2f2f2f;
-    padding: 40px 0;
-    width: 50px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    width: 45px;
     top: -20px;
     left: 20px;
     z-index: 15;
@@ -10264,7 +10265,7 @@ textarea.has-errors {
 
 .shop .shop-grid .quickview-list .quickview-entry .quickview-wrapper .product-gallery-env .ribbon.out-of-stock {
     background: #999999;
-    padding-top: 75px;
+    padding-top: 40px;
 }
 
 .shop .shop-grid .quickview-list .quickview-entry .quickview-wrapper .product-gallery-env .ribbon.out-of-stock:after {
@@ -10292,7 +10293,7 @@ textarea.has-errors {
     height: 0px;
     border-style: solid;
     border-width: 20px 0 0 7px;
-    border-color: transparent transparent transparent #ac1a20;
+    border-color: transparent transparent transparent #000;
     display: block;
     content: '';
 }
@@ -10307,6 +10308,7 @@ textarea.has-errors {
     color: #FFF;
     font-size: 22px;
     white-space: nowrap;
+    margin-left: -8px;
 }
 
 .shop .shop-grid .quickview-list .quickview-entry .quickview-wrapper .product-gallery {
@@ -11845,7 +11847,7 @@ ul.social-networks li a:hover.icon-social-vkontakte {
 
 .header-cart .cart-items .cart-item .details {
     color: #222222;
-    margin-left: 90px;
+    margin-left: 112px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -11886,6 +11888,7 @@ ul.social-networks li a:hover.icon-social-vkontakte {
 
 .header-cart .cart-items .cart-item .details .price-quantity .price {
     float: left;
+    margin-left: 15px;
 }
 
 .header-cart .cart-items .cart-item .details .price-quantity .price del {
@@ -11908,6 +11911,7 @@ ul.social-networks li a:hover.icon-social-vkontakte {
 .header-cart .cart-items .cart-item .details .price-quantity .quantity {
     float: right;
     color: #000;
+    margin-top: 10px;
 }
 
 .header-cart .cart-items .owl-item > div {
@@ -16377,7 +16381,7 @@ fieldset[disabled] .comment-respond input#submit {
 
 .laborator-woocommerce .product-single .product-left-info .ribbon.out-of-stock {
     background: #999999;
-    padding-top: 75px;
+    padding-top: 40px;
 }
 
 .laborator-woocommerce .product-single .product-left-info .ribbon.out-of-stock:after {
@@ -16733,7 +16737,7 @@ fieldset[disabled] .comment-respond input#submit {
 }
 
 .laborator-woocommerce .product-single .entry-summary .product-top-nav {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.27);
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -24684,6 +24688,13 @@ footer-sidebar
 
     margin-left: .2em;
 
+}
+
+.description-mm {
+	margin-top: 15px;
+	margin-bottom: -22px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .iconmm-basket-1:before { content: '\62d'; } /* 'b' */

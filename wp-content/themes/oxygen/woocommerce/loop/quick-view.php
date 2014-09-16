@@ -71,7 +71,7 @@ if( isset($quickview_wp_query))
 								<?php if ( $product->is_on_sale() ) : ?>
 									<div class="ribbon">
 										<div class="ribbon-content promotion-mm">
-											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale promotion-mm">' . __( 'Promociónd', 'woocommerce' ) . '</span>', $post, $product ); ?>
+											<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale promotion-mm">' . __( 'Promoción', 'woocommerce' ) . '</span>', $post, $product ); ?>
 										</div>
 									</div>
 								<?php elseif($product->is_in_stock() == false): ?>

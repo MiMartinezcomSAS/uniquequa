@@ -18,7 +18,7 @@ if( ! get_data('shop_single_sale_ribbon_show'))
 
 	<div class="ribbon">
 		<div class="ribbon-content">
-			<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Sale', 'woocommerce' ) . '</span>', $post, $product ); ?>
+			<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Promoción', 'woocommerce' ) . '</span>', $post, $product ); ?>
 		</div>
 	</div>
 
@@ -29,7 +29,7 @@ if( ! get_data('shop_single_sale_ribbon_show'))
 		?>
 		<div class="ribbon out-of-stock">
 			<div class="ribbon-content">
-				<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="outofstock">' . __( 'Out of Stock', 'woocommerce' ) . '</span>', $post, $product ); ?>
+				<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="outofstock">' . __( 'Agotado', 'woocommerce' ) . '</span>', $post, $product ); ?>
 			</div>
 		</div>
 		<?php
