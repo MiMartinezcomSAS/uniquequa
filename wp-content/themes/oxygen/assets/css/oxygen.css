@@ -14040,7 +14040,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     color: #666666;
     margin: 0;
     margin-right: 15px;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
     display: table;
     width: 100%;
 }
