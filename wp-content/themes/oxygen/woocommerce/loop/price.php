@@ -34,7 +34,7 @@ if( ! get_data('shop_add_to_cart_listing'))
 <?php elseif($product->is_type('external')): ?>
 <a class="add-to-cart-btn entypo-export" data-toggle="tooltip" data-placement="bottom" title="<?php echo $product->single_add_to_cart_text(); ?>" href="<?php echo $product->get_product_url(); ?>" target="_blank"></a>
 
-<?php else: ?>
+<?php else: wc_get_template();?>
 <a class="add-to-cart-btn add-to-cart iconmm-cart" data-id="<?php echo $product->post->ID; ?>" data-toggle="tooltip" data-placement="bottom" title="<?php _e('Agregar al Carrito', TD); ?>" href="#">
 	<span class=" "></span>
 </a>
