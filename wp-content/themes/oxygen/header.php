@@ -10,7 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<title><?php wp_title('|', true, 'right'); ?></title>
-	<?php
+	  
+	    <?php
     if(is_front_page()):
     ?>
         <script src="<?php bloginfo('template_directory'); ?>/js/prefixfree.min.js"></script>
@@ -20,7 +21,6 @@
     endif;
     wp_head();
     ?>
-
 </head>
 <body <?php body_class(); ?> onLoad="javascript:preloader()">
 <?php if(is_front_page()):?>
