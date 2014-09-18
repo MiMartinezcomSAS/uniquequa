@@ -12,13 +12,7 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	  
 	    <?php
-    if(is_front_page()):
-    ?>
-        <script src="<?php bloginfo('template_directory'); ?>/js/prefixfree.min.js"></script>
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
-    <?php
-    endif;
+    
     wp_head();
     ?>
 </head>
