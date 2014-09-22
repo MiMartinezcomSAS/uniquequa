@@ -25342,3 +25342,55 @@ state
     opacity: 0;
     z-index: -10000;
 }
+#tags-products{
+    margin:0;
+    padding:0;
+    font-size:100%
+}
+
+#tags-products li{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+    width: 24%;
+    text-align: center;
+    min-width:100px
+}
+#tags-products li:hover{
+    background: white;
+    color:#000
+}
+.selected-tags{
+    background:red
+}
+.selected-contends{
+    display:block !important
+}
+#tags-products-contends li{
+    display:none
+}
+#tags-products-contends{
+    padding:0
+}
+#shopping .inline,#shopping .span{
+    display:inline-block;
+    vertical-align:middle
+}
+#shopping .span{
+height: 30px;
+padding: 16px 6px;
+}
+.menu-item-has-children {
+    position: relative;
+}
+.menu-item-has-children:before{
+    content:"►";
+    position:absolute;
+    top:7px;
+    right: 1px;
+    font-size:12px;
+    z-index:10000
+
+}

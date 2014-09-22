@@ -36,8 +36,8 @@ function createSlide(element){
     var slideSelectContend = slideSelect.querySelector('.slide-contend'),
         figure = slideSelect.querySelector('figure');
 
-    figure.classList.remove('show-izq');
-    figure.classList.add('show-izq-hidden');
+  //  figure.classList.remove('show-izq');
+  //  figure.classList.add('show-izq-hidden');
     slideSelectContend.classList.remove('show-move');
     slideSelectContend.classList.add('hidden-move');
 
@@ -52,8 +52,8 @@ function createSlide(element){
 function AnimationListener(e) {
     slideSelect.classList.remove('select-li');
     slideCurrent.classList.add('select-li');
-    slideCurrent.querySelector('figure').classList.remove('show-izq-hidden');
-    slideCurrent.querySelector('figure').classList.add('show-izq');
+    //slideCurrent.querySelector('figure').classList.remove('show-izq-hidden');
+    //slideCurrent.querySelector('figure').classList.add('show-izq');
     slideCurrent.querySelector('.slide-contend').classList.remove('hidden-move');
     slideCurrent.querySelector('.slide-contend').classList.add('show-move');
 
@@ -80,8 +80,21 @@ function init() {
         navSlide.appendChild(li)
     }
     navSlideLi = d.querySelectorAll('#nav-slide li');
-}
+    var slideMM = d.querySelectorAll('#slide-mm li');
+    for (var i = 0; i < slideMM.length; i++) {
 
+
+        slideMM[i].querySelector('.slide-contend').addEventListener("mouseover", func, false);
+        slideMM[i].addEventListener("mouseout", func1, false);
+    }
+}
+function func(){
+    clearInterval(timeVar);
+}
+function func1(){
+
+    timeVar = setInterval(myTimer, 5000);
+}
 
 init();
 

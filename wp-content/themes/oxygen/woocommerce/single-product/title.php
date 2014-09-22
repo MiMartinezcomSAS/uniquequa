@@ -44,5 +44,5 @@ if($show_rating_below_title)
 <?php else: ?>
 	
 	<br />
-	
+
 <?php endif; ?>

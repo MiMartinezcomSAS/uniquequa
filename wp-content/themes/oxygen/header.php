@@ -12,7 +12,7 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	  
 	    <?php
-    
+
     wp_head();
     ?>
 </head>
@@ -34,9 +34,9 @@
                 $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), false, '');
                 echo $src[0];
                 ?>">
-                    <figure  class="logo-fig .show-izq">
-                        <img class="logo-q" src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" alt=""/>
-                    </figure>
+                   <!-- <figure  class="logo-fig .show-izq">
+                        <img class="logo-q" src="<?php #echo get_post_meta($post->ID, 'logo', true); ?>" alt=""/>
+                    </figure> -->
                     <div class="slide-contend show-move">
                         <?php the_content(); ?>
                     </div>

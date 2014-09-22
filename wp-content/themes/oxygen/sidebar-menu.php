@@ -34,15 +34,16 @@
 
 				<hr/>
 				<div id="shopping">
-        <h4>Carro de compras</h4>
 
-        <div>
+
+        <div class="inline">
+            <h4>Carro de compras</h4>
             <div class="cart-sub-total">
    			<?php _e('Subtotal', TD); ?>: 
    			<span><?php echo WC()->cart->get_cart_subtotal(); ?></span>
    		</div>
    		</div>
-        <span>►</span>
+        <span class="span">►</span>
     </div>
     <hr/>
 				

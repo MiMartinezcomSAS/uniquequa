@@ -12,6 +12,24 @@ var public_vars = public_vars || {};
 	
 	$(document).ready(function()
 	{
+
+
+
+        $("#tags-products li").click(function() {
+
+
+            $("#tags-products li").each(function() {
+                $( this ).removeClass( "selected-tags" );
+            });
+            $("#tags-products-contends li").each(function() {
+                $( this ).removeClass( "selected-contends" );
+            });
+            var number = $( this).data('item');
+            $( "#tags-products-contends li:eq( "+ number +" )").addClass("selected-contends")
+            $(this).addClass('selected-tags');
+        });
+
+
 		public_vars.$body         = $('body');
 		public_vars.$mainSidebar  = $('.main-sidebar');
 		public_vars.$sidebarMenu  = public_vars.$mainSidebar.find('.sidebar-menu');

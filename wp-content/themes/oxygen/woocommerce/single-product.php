@@ -24,20 +24,20 @@ get_header( 'shop' ); ?>
 	?>
 		
 		<div class="product-single">
-		
+
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<div class="row<?php echo SHOPSINGLESIDEBAR && SHOPSINGLESIDEBARALIGN == 'left' ? ' shop-single-left-sidebar' : ''; ?>">
 				
 				<div class="col-md-<?php echo SHOPSINGLESIDEBAR ? 9 : 12; ?> product-info-env">
-					
+
 					<?php wc_get_template_part( 'content', 'single-product' ); ?>
-					
+
 				</div>
 				
 				<?php if(SHOPSINGLESIDEBAR): ?>
 				<div class="col-md-3 sidebar-env">
-					
+
 					<div class="blog shop_sidebar">
 						<?php dynamic_sidebar('shop_sidebar'); ?>
 					</div>

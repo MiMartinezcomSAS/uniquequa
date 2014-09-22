@@ -62,7 +62,7 @@ $rating = intval( get_comment_meta( $comment->comment_ID, 'rating', true ) );
 						</p>
 		
 					<?php endif; ?>
-		
+
 					<div itemprop="description" class="description comment-content"><?php comment_text(); ?></div>
 					
 				</div>
