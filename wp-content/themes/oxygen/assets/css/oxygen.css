@@ -24886,18 +24886,28 @@ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0
 		display: none;
 	}
 	#slide-mm h2 {
-		margin-bottom: 15px;
+		margin-bottom: -10px;
 	}
 	#slide-mm .slide-contend {
-		margin-bottom: -45px;
+		margin-bottom: -20px;
 	}
 	#slide-mm .slide-contend {
 	background:transparent;
 	}
 	#nav-slide{
-	margin-bottom: -45px;
-	margin-right: 5%;
+	display: none;
 	}
+}
+
+@media (max-width: 769px){
+	#slide-mm .slide-contend {
+	margin-bottom: 20px;
+	}
+	#nav-slide{
+    bottom: 115px;	
+	}
+
+
 }
 
 /*=================================================================
@@ -25344,7 +25354,7 @@ state
     }
 
     #nav-slide {
-        right: 0;
+        right: 2.6%;
         width: 100%;
     }
 }

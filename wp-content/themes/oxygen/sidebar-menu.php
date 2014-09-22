@@ -59,16 +59,16 @@
             <div class="footer-sidebar">
                 <nav id="network">
                     <ul>
-                        <li><a href="https://www.facebook.com/uniquecondones"><span class="icon-facebook"></span></a></li>
-                        <li><a href="https://twitter.com/CondonesUnique"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-youtube"></span></a></li>
+                        <li><a href="https://www.facebook.com/uniquecondones"target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li><a href="https://twitter.com/CondonesUnique"target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC9SK7ynaF8jop93XwQ0ktZg"target="_blank"><span class="icon-youtube"></span></a></li>
                     </ul>
                 </nav>
                 <p class="first"> ©Unique Condoms - 2014 </p>
 
                 <p> Todos los derechos reservados </p>
                 <hr/>
-                <p>Diseño y desarrollo web: <a href="http://mi-martinez.com" target="_blank"> <span
+                <p>Diseño y desarrollo web: <a href="http://mi-martinez.com" target="_blank" alt="Agencia de publicidad en Bogotá" > <span
                             class="icons-fuentelogo"></span></a></p>
             </div>
 
