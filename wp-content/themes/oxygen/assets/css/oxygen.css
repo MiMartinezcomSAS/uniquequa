@@ -25442,8 +25442,21 @@ padding: 16px 6px;
     z-index:10000
 
 }
-
 @media (max-width: 769px) {
 	#tags-products li{
     width: 49%;
+}
+    html, body, .fixed-footer-home {height: 100%;}
+
+    .fixed-footer-home{
+        height: auto; min-height: 100%;
+
+    }
+    .fixed-footer-home {padding-bottom: 150px;}
+
+    .home .footer-sidebar-responsive {
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+    }
 }
