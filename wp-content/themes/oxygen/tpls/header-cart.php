@@ -104,7 +104,7 @@ $cart = array_reverse(WC()->cart->get_cart());
     	</a>
     	
    		<a class="btn btn-block btn-default" href="<?php echo CHECKOUTURL; ?>">
-   			<?php _e('Checkout', TD); ?> 
+   			<?php _e('Finalizar compra', TD); ?> 
    			<span class="glyphicon cart-icon"></span>
    		</a>
    		
