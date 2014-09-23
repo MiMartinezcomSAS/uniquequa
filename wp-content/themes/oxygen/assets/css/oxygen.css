@@ -14114,6 +14114,17 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     margin-top: -15px;
 }
 
+@media (max-width: 780px){
+	.cart-env .cart-item-row .col.col-thumb-name .remove{
+		left: 101px;
+	}
+}
+@media (max-width: 500px) {
+	.cart-env .cart-item-row .col.col-thumb-name .remove{
+		left: 16px;
+	}
+}
+
 .cart-env .cart-item-row .col .quantity {
     white-space: nowrap;
     display: table;
@@ -14163,6 +14174,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     color: #FFF;
     padding: 3px 10px;
     display: table-cell;
+    width: 35px;
 }
 
 .cart-env .cart-item-row .col .quantity input[type="button"]:focus {
@@ -14441,6 +14453,7 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
 
 .cart-env .shipping_calculator .shipping-calculator-form select {
     width: 100%;
+    height: 30px;
 }
 
 .cart-env .shipping_calculator .shipping-calculator-form .select-wrapper {
@@ -14471,6 +14484,13 @@ fieldset[disabled] .cart-env .cart-item-row .col .quantity input[type="button"] 
     width: 170px;
     margin-left: -100px;
     padding: 5px 15px;
+}
+
+@media (max-width: 769px){
+	.cart-env .shipping_calculator button[name="calc_shipping"]{
+		margin-left: -230px;
+		width: 280px;
+	}
 }
 
 .page-container .view-cart > .row {
@@ -20885,8 +20905,8 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
 }
 
 .laborator-woocommerce .checkout_coupon {
-    background: #FFF;
-    border-top: 2px dashed #eeeeee;
+    background: #2e2e2e;
+    border-top: 1px dashed #000;
     padding: 20px 30px;
 }
 
@@ -20895,11 +20915,11 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
 }
 
 .laborator-woocommerce .with-divider {
-    border-bottom: 2px solid #eeeeee;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .laborator-woocommerce .chosen-container,
@@ -22446,11 +22466,11 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     padding-bottom: 20px;
     padding-top: 5px;
     display: block;
-    background: #fbfbfb;
+    background: #2e2e2e;
     margin-left: -30px;
     margin-right: -30px;
     padding: 20px 30px;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #000;
     border-left: 0;
     border-right: 0;
 }
@@ -22462,7 +22482,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 .laborator-woocommerce #ship-to-different-address label {
     display: inline-block;
     padding-left: 5px;
-    color: #222222;
+    color: #ddd;
 }
 
 .laborator-woocommerce #ship-to-different-address + .shipping_address {
@@ -24296,6 +24316,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     .laborator-woocommerce .product-single .entry-summary .single_add_to_cart_button {
         width: 100%;
         padding: 15px 0;
+        height: 50px;
     }
 
     .laborator-woocommerce .product-single .entry-summary .quantity {
@@ -24692,17 +24713,6 @@ footer-sidebar
     font-size: 13px !important;
     margin-top: -5px !important;
 }
-
-@media (max-width: 780px){
-	.cart-env .cart-item-row .col.col-thumb-name .remove{
-		left: 101px;
-	}
-}
-@media (max-width: 500px) {
-	.cart-env .cart-item-row .col.col-thumb-name .remove{
-		left: 16px;
-	}
-
 
 @font-face {
     font-family: 'fontello-mm';

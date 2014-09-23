@@ -1,0 +1,19 @@
+diff a/wp-content/themes/oxygen/assets/css/oxygen.css b/wp-content/themes/oxygen/assets/css/oxygen.css	(rejected hunks)
+@@ -24693,6 +24693,17 @@
+     margin-top: -5px !important;
+ }
+ 
++@media (max-width: 780px){
++	.cart-env .cart-item-row .col.col-thumb-name .remove{
++		left: 101px;
++	}
++}
++@media (max-width: 500px) {
++	.cart-env .cart-item-row .col.col-thumb-name .remove{
++		left: 16px;
++	}
++
++
+ @font-face {
+     font-family: 'fontello-mm';
+     src: url('../fonts/mi-fontello.eot?42607942');

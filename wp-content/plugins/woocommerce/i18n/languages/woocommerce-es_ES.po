@@ -3747,7 +3747,7 @@ msgstr "Notas del pedido"
 #: includes/class-wc-checkout.php:117
 msgctxt "placeholder"
 msgid "Notes about your order, e.g. special notes for delivery."
-msgstr "Notas sobre tu pedido, ej. notas especiales para el envío."
+msgstr "Recuerda que tu privacidad es lo mas importante para nosotros, dinos como quieres recibir tu pedido..."
 
 #: includes/class-wc-checkout.php:176
 msgid "Order &ndash; %s"
@@ -4851,7 +4851,7 @@ msgstr "Apartamento, habitación, unidad, etc (opcional)"
 
 #: includes/class-wc-countries.php:760 includes/class-wc-countries.php:761
 msgid "Town / City"
-msgstr "Localidad / Ciudad"
+msgstr "Municipio / Ciudad"
 
 #: includes/class-wc-countries.php:767 includes/class-wc-countries.php:768
 msgid "State / County"
@@ -4884,7 +4884,7 @@ msgstr "Municipio"
 
 #: includes/class-wc-countries.php:928
 msgid "Town / District"
-msgstr "Localidad / Distrito"
+msgstr "Municipio / Distrito"
 
 #: includes/class-wc-countries.php:931
 msgid "Region"
@@ -6062,7 +6062,7 @@ msgstr "Pago mediante cheques"
 msgid ""
 "Please send your cheque to Store Name, Store Street, Store Town, Store State"
 " / County, Store Postcode."
-msgstr "Por favor envíe su cheque a Nombre de la tienda, dirección, localidad, Estado / provincia, código postal."
+msgstr "Por favor envíe su cheque a Nombre de la tienda, dirección, Municipio, Estado / provincia, código postal."
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:114
 msgid "Awaiting cheque payment"

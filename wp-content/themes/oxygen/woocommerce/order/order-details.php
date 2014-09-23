@@ -95,7 +95,6 @@ $order = new WC_Order( $order_id );
 		</div>
 	</div>
 
-
 	<div class="col-md-6">
 	
 		<div class="white-block block-pad">
