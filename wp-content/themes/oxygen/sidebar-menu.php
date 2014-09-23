@@ -36,14 +36,14 @@
 				<div id="shopping">
 
 
-        <div class="inline">
+        <div class="inline"><a href="<?php echo WC()->cart->get_cart_url(); ?>">
             <h4>Carro de compras</h4>
             <div class="cart-sub-total">
    			<?php _e('Subtotal', TD); ?>: 
    			<span><?php echo WC()->cart->get_cart_subtotal(); ?></span>
    		</div>
    		</div>
-        <span class="span">►</span>
+        <span class="span">►</span></a>
     </div>
     <hr/>
 				

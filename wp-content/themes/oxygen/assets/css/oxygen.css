@@ -14094,7 +14094,6 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     display: block;
     margin-bottom: 3px;
     font-size: 18px;
-    margin-left: 35px;
 }
 
 .cart-env .cart-item-row .col.col-thumb-name {
@@ -14106,22 +14105,22 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 100px;
     width: 30px;
     height: 30px;
     display: block;
     z-index: 10;
     margin-top: -15px;
+    margin-left: -30px;
 }
 
 @media (max-width: 780px){
 	.cart-env .cart-item-row .col.col-thumb-name .remove{
-		left: 101px;
+		left: 15px;
 	}
 }
 @media (max-width: 500px) {
 	.cart-env .cart-item-row .col.col-thumb-name .remove{
-		left: 16px;
+		left: 15px;
 	}
 }
 
@@ -22509,11 +22508,11 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 
 .laborator-woocommerce .checkout-cart-env .cart-totals .product-quantity {
     display: block;
-    color: #808080;
+    color: #ddd;
     font-weight: normal;
     padding-top: 5px;
     font-size: 92%;
-    font-style: italic;
+    margin-left: 10px;
 }
 
 .laborator-woocommerce .payment_methods > li {
@@ -22558,7 +22557,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 }
 
 .laborator-woocommerce .order_details.header {
-    background: #FFF;
+    background: #2e2e2e;
     padding: 20px 30px;
     list-style: none;
     margin: 0;
@@ -22572,7 +22571,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     display: table-cell;
     vertical-align: middle;
     width: 1%;
-    color: #999;
+    color: #fff;
     font-size: 92%;
 }
 
@@ -22581,7 +22580,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     margin-top: 10px;
     font-size: 138%;
     font-weight: normal;
-    color: #222222;
+    color: #fff;
 }
 
 .laborator-woocommerce .order_details.header li.order strong {
