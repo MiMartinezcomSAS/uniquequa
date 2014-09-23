@@ -24665,7 +24665,7 @@ footer-sidebar
 }
 
 @media (max-width: 769px) {
-    .footer-sidebar-responsive{
+	    .footer-sidebar-responsive{
         display: block !important;
     }
     #network{
@@ -24692,6 +24692,17 @@ footer-sidebar
     font-size: 13px !important;
     margin-top: -5px !important;
 }
+
+@media (max-width: 780px){
+	.cart-env .cart-item-row .col.col-thumb-name .remove{
+		left: 101px;
+	}
+}
+@media (max-width: 500px) {
+	.cart-env .cart-item-row .col.col-thumb-name .remove{
+		left: 16px;
+	}
+
 
 @font-face {
     font-family: 'fontello-mm';
