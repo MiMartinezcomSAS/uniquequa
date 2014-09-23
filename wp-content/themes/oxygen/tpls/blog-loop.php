@@ -18,7 +18,7 @@ if(is_category())
 {
 	$cat_slug      = isset($wp_query->query['category_name']) ? $wp_query->query['category_name'] : $wp_query->query['cat'];
 	$category_name = get_term_by((is_numeric($cat_slug) ? 'id' : 'slug'), $cat_slug, 'category')->name;
-	$blog_title    = sprintf(__("Category - %s", TD), $category_name);
+	$blog_title    = sprintf(__("%s", TD), $category_name);
 }
 else
 if(is_tag())

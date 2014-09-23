@@ -49,7 +49,7 @@ if( ! $has_thumb)
 					<?php #echo laborator_show_img($id, 'blog-thumb-1'); ?>
 					<?php the_post_thumbnail('blog-thumb-1'); ?>
 					<span class="hover">
-						<em><?php _e('Read more...', TD); ?></em>
+						<em><?php _e('Ver Artículo...', TD); ?></em>
 					</span>
 				</a>
 			</div>

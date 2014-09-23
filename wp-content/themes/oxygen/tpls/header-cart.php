@@ -24,7 +24,7 @@ $cart = array_reverse(WC()->cart->get_cart());
 			
 				?>
 				<div class="no-items">
-					<?php _e('Tu carrito de compras esta vacio!', TD); ?>
+					<?php _e('Tu carro de compras esta vacio!', TD); ?>
 				</div>
 				<?php
 			
