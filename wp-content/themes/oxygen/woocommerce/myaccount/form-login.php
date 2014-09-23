@@ -55,7 +55,7 @@ do_action('laborator_woocommerce_before_wrapper');
 				
 				<div class="block_title">
 					<h4>
-						<?php _e('Login', TD); ?>
+						<?php _e('Iniciar Sesión', TD); ?>
 						<span class="glyphicon glyphicon-log-in pull-right"></span>
 					</h4>
 				</div>  

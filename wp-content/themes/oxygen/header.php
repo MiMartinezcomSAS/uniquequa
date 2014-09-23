@@ -85,12 +85,17 @@
         }
     if (!is_front_page()):
     ?>
-
-
     <?php endif;?>
-    <div class="main<?php echo HEADER_TYPE == 1 && HAS_SLIDER ? ' hide-breadcrumb' : ''; ?>">
 
-        <?php get_template_part('tpls/breadcrumb'); ?>
+         <div class="main<?php echo HEADER_TYPE == 1 && HAS_SLIDER ? ' hide-breadcrumb' : ''; ?>">
+
+        #aqui juan no trabajo hoy, att maiki(quitado el header del inicio)
+        <?php 
+        if(!is_front_page()){
+        get_template_part('tpls/breadcrumb'); }
+        ?>
+
+ 
 
         <?php
         # Slider
