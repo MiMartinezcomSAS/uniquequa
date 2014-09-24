@@ -9601,11 +9601,11 @@ textarea.has-errors {
 }
 
 .laborator-woocommerce .myaccount-env .myaccount-tabs > li {
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 0px solid #eaeaea;
 }
 
 .laborator-woocommerce .myaccount-env .myaccount-tabs > li a {
-    color: #666666;
+    color: #D3D3D3;
     display: block;
     padding: 10px 10px;
     -moz-transition: all 350ms ease-in-out;
@@ -9625,7 +9625,9 @@ textarea.has-errors {
 }
 
 .laborator-woocommerce .myaccount-env .myaccount-tabs > li.active > a {
-    color: #222222;
+    color: #fff;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.21);
 }
 
 .laborator-woocommerce .myaccount-env .myaccount-tabs > li:hover > a {
@@ -9656,7 +9658,7 @@ textarea.has-errors {
 }
 
 .laborator-woocommerce .myaccount-env .my_account_orders tbody > tr td {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.06);
     font-size: 115%;
 }
 
@@ -9668,11 +9670,11 @@ textarea.has-errors {
 .laborator-woocommerce .myaccount-env .my_account_orders tbody > tr td.order-total .amount {
     display: block;
     font-size: 123%;
-    color: #666666;
+    color: #D5D5D5;
 }
 
 .laborator-woocommerce .myaccount-env .my_account_orders tbody > tr td.order-status {
-    color: #888;
+    color: #fff;
 }
 
 .laborator-woocommerce .myaccount-env .my_account_orders tbody > tr:last-child td {
@@ -9699,6 +9701,7 @@ textarea.has-errors {
 
 .laborator-woocommerce .myaccount-env .myaccount-tab.current {
     display: block;
+    margin-top: 15px;
 }
 
 .laborator-woocommerce .myaccount-env .tab-sep-container {
@@ -9709,10 +9712,10 @@ textarea.has-errors {
 .laborator-woocommerce .myaccount-env .tab-sep-container .tab-separator {
     position: absolute;
     left: 0;
-    top: -30px;
-    bottom: -30px;
+    top: 11px;
+    bottom: 5px;
     width: 1px;
-    background: #eeeeee;
+    background: rgba(238, 238, 238, 0.21);
 }
 
 .laborator-woocommerce .myaccount-env .addresses:before,
@@ -9727,7 +9730,7 @@ textarea.has-errors {
 
 .laborator-woocommerce .myaccount-env .addresses .address {
     float: left;
-    background: #FAFAFA;
+    background: none;
     width: 40%;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -9735,7 +9738,7 @@ textarea.has-errors {
 }
 
 .laborator-woocommerce .myaccount-env .addresses .address .title {
-    background: #eeeeee;
+    background: rgba(0, 0, 0, 0.27);
     padding: 10px 15px;
     margin: 0;
 }
