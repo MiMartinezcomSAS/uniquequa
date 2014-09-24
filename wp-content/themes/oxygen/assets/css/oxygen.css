@@ -7922,7 +7922,7 @@ p {
 
 .logo h3 {
     font-size: 35px;
-    margin: 60px 0 0 0;
+    margin: 45px 0 0 0;
     font-weight: 500;
 }
 
@@ -13770,7 +13770,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
     display: block;
     padding: 0;
     margin: 0;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 
 .cart-env .cart-totals > li:before,
@@ -13851,6 +13851,7 @@ fieldset[disabled] .widget_shopping_cart_content .buttons .button {
 .cart-env .cart-totals > li .name {
     float: left;
     color: #fff;
+    font-size: 15px;
 }
 
 .cart-env .cart-totals > li .value {
@@ -22538,7 +22539,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 .laborator-woocommerce .payment_methods > li label img {
     display: inline-block;
     margin: 0 5px;
-    max-height: 20px;
+    max-height: 30px;
 }
 
 .laborator-woocommerce .form-row.terms {
@@ -25501,4 +25502,9 @@ display: none;
         width: 100%;
         z-index: 10;
     }
+}
+
+.ui-widget-content {
+	background: rgba(46,46,46,0.0) !important;
+	border: none !important;
 }

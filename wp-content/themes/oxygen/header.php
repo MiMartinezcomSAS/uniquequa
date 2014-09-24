@@ -89,7 +89,7 @@
 
          <div class="main<?php echo HEADER_TYPE == 1 && HAS_SLIDER ? ' hide-breadcrumb' : ''; ?>">
 
-        #aqui juan no trabajo hoy, att maiki(quitado el header del inicio)
+        <!--aqui juan no trabajo hoy, att maiki(quitado el header del inicio)-->
         <?php 
         if(!is_front_page()){
         get_template_part('tpls/breadcrumb'); }

@@ -20,7 +20,7 @@ do_action('laborator_woocommerce_before_wrapper');
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="white-block block-pad">
-				<h1><?php _e('Shopping Cart', TD); ?></h1>
+				<h1><?php _e('Carro de compras', TD); ?></h1>
 				<span><?php echo sprintf(_n('%d item', '%d items', $cart_contents_count), $cart_contents_count); ?></span>
 			</div>
 		</div>
