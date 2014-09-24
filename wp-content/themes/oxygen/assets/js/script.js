@@ -13,6 +13,7 @@ $(document).ready(function() {
 		$(this).toggleClass("active");
 		$(".nav").toggle();
 	});
+
 	adjustMenu();
 	/* add by jas */
 		/*

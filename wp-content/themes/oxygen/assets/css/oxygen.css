@@ -24064,7 +24064,7 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
     }
 
     .shop .items {
-        margin: 20px 0;
+        margin: -10px 0;
     }
 
     .shop .items .item-wrapper .item {
@@ -25523,3 +25523,38 @@ border: none !important;
 background: none !important;
 color: none !important;
 font-weight: bold;
+}
+.subscribe-sidebar{
+    cursor:pointer;
+    padding: 10px;
+}
+.wrapper-pop-up{
+    background:rgba(0,0,0,.5);
+    position:fixed;
+    top : 0;
+    left: 0;
+    width :100%;
+    height:100%;
+    display:none;
+    z-index:10000
+}
+.wrapper-pop-up .contend-pop-up{
+    background:rgba(255,0,0,.5);
+    width:500px;
+    height:250px;
+    position : absolute;
+    margin: -125px -250px ;
+    top: 50%;
+    left: 50%;
+
+}
+.wrapper-pop-up .nav-close{
+    cursor:pointer;
+    position: absolute;
+    right: 10px;
+    top:10px;
+    font-size:30px
+}
+.show-pop-up{
+    display:block !important;
+}

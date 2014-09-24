@@ -45,8 +45,11 @@
    		</div>
         <span class="span">►</span></a>
     </div>
+
     <hr/>
-				
+                <div id="subscribe-sidebar" class="subscribe-sidebar">
+                    SUSCRIBETE
+                </div>
 			</div><!-- /sidebar-inner -->
 			
 			

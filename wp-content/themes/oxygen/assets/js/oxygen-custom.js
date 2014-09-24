@@ -29,7 +29,13 @@ var public_vars = public_vars || {};
             $(this).addClass('selected-tags');
         });
 
+        $("#subscribe-sidebar").click(function() {
+            $(".wrapper-pop-up").addClass('show-pop-up');
+        });
+        $(".wrapper-pop-up .nav-close").click(function() {
 
+            $(".wrapper-pop-up").removeClass('show-pop-up');
+        });
 		public_vars.$body         = $('body');
 		public_vars.$mainSidebar  = $('.main-sidebar');
 		public_vars.$sidebarMenu  = public_vars.$mainSidebar.find('.sidebar-menu');
