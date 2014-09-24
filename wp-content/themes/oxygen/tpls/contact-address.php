@@ -30,7 +30,7 @@ $route_finder       = get_field('enable_route_finder');
 			
 				<a href="#">
 					<i class="entypo-location"></i>
-					<?php _e('Show me the route?', TD); ?>
+					<?php _e('Mostrar ruta para llegar', TD); ?>
 				</a>
 				
 				<div class="route-options-container">
@@ -69,7 +69,7 @@ $route_finder       = get_field('enable_route_finder');
 					<?php if($route_finder == 'both' || $route_finder == 'location'): ?>
 					<div class="route-options">
 						<input type="radio" class="form-control" name="location" value="gps" id="gps-type" />
-						<label for="gps-type"><?php _e('My current location', TD); ?></label>
+						<label for="gps-type"><?php _e('Mi localización actual', TD); ?></label>
 					</div>
 					<?php endif; ?>
 					
@@ -77,18 +77,18 @@ $route_finder       = get_field('enable_route_finder');
 					<?php if($route_finder == 'both' || $route_finder == 'address'): ?>
 					<div class="route-options">
 						<input type="radio" class="form-control" name="location" value="address" id="address-type" />
-						<label for="address-type"><?php _e('Specific address', TD); ?></label>
+						<label for="address-type"><?php _e('Desde una dirección especifica', TD); ?></label>
 						
 						<div class="address-field<?php echo $route_finder == 'address' ? ' visible' : ''; ?>">
-							<input type="text" class="form-control" placeholder="<?php _e('Enter your address...', TD); ?>" />
-							<span class="error"><?php _e('Cannot find this address!', TD); ?></span>
+							<input type="text" class="form-control" placeholder="<?php _e('Ingrese su dirección...', TD); ?>" />
+							<span class="error"><?php _e('No se encuentra la dirección!', TD); ?></span>
 						</div>
 					</div>
 					<?php endif; ?>
 					
-					<button type="button" class="btn btn-default to-uppercase" id="calc-route"><?php _e('Calculate route', TD); ?></button>
+					<button type="button" class="btn btn-default to-uppercase" id="calc-route"><?php _e('Calcular ruta', TD); ?></button>
 					
-					<div class="route-error"><?php _e('Unable to find the route path!', TD); ?></div>
+					<div class="route-error"><?php _e('Error al intentar encontrar la dirección!', TD); ?></div>
 					
 					<div class="route-details">
 						<div class="route-detail distance">
@@ -103,7 +103,7 @@ $route_finder       = get_field('enable_route_finder');
 						</div>
 					</div>
 					
-					<a href="#" class="route-clear"><?php _e('Clear route', TD); ?></a>
+					<a href="#" class="route-clear"><?php _e('Limpiar ruta', TD); ?></a>
 					
 				</div>
 			</div>

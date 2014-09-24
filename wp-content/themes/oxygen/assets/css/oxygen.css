@@ -5799,9 +5799,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .contact-store h4 {
-    margin-bottom: 20px;
-    border-bottom: 2px solid #EEE;
+    margin-bottom: 0px;
+    border-bottom: none;
     padding-bottom: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #fff !important;
 }
 
 .contact-store textarea {
@@ -5835,13 +5838,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     color: #cccccc;
     padding: 10px;
     text-align: center;
-    background: #FAFAFA;
+    background: #rgba(0, 0, 0, 0.43);
     margin-right: 5px;
 }
 
 .contact-store .route-details .route-detail span {
     display: block;
-    color: #222222;
+    color: #fff;
     font-size: 17px;
 }
 
@@ -8985,6 +8988,7 @@ textarea:focus {
 
 .form-elements .field label {
     display: block;
+    font-size: 15px;
 }
 
 .form-elements .field .row {
@@ -18478,7 +18482,7 @@ p {
 
 .contact-map-canvas {
     position: absolute;
-    left: 0;
+    left: -250px;
     right: 0;
     bottom: 0;
     background: #eeeeee;
@@ -18602,13 +18606,14 @@ p {
     right: 20px;
     bottom: 20px;
     padding: 5px;
-    background: #ffffff;
+    background: rgba(46, 46, 46, 0.8);
     font-size: 77%;
     line-height: 1;
     -moz-transition: all 350ms ease-in-out;
     -o-transition: all 350ms ease-in-out;
     -webkit-transition: all 350ms ease-in-out;
     transition: all 350ms ease-in-out;
+    z-index: 9999;
 }
 
 .toggle-info-blocks:hover {
@@ -25508,3 +25513,10 @@ display: none;
 	background: rgba(46,46,46,0.0) !important;
 	border: none !important;
 }
+
+
+.ui-widget-header {
+border: none !important;
+background: none !important;
+color: none !important;
+font-weight: bold;

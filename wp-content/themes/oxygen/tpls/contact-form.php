@@ -15,10 +15,10 @@ $success_message    = get_field('success_message');
 
 
 $field_names = array(
-	'name'	 	=> __('Name', TD),
-	'email'		=> __('E-mail', TD),
-	'phone'		=> __('Phone Number', TD),
-	'message'	=> __('Message', TD),
+	'name'	 	=> __('Nombre completo', TD),
+	'email'		=> __('Correo Electronico', TD),
+	'phone'		=> __('Numero telefonico', TD),
+	'message'	=> __('Mensaje', TD),
 );
 	
 ?>
@@ -54,7 +54,7 @@ $field_names = array(
 				<?php endif; ?>
 				
 				<div class="field contact-form-submit">
-					<input type="submit" value="<?php _e('Send', TD); ?>" class="btn-default btn contact-send" />
+					<input type="submit" value="<?php _e('Enviar', TD); ?>" class="btn-default btn contact-send" />
 					
 					<div class="spinner">
 						<div class="bounce1"></div>

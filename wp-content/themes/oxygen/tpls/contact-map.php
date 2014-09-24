@@ -99,7 +99,7 @@ if(preg_match("/^([0-9\-]+)(,[0-9\-]+)?$/", trim($map_panby), $panby_matches))
 </div>
 <?php endif; ?>
 
-<a href="#" class="toggle-info-blocks" data-visible="<?php _e('Hide Contact Blocks', TD); ?>" data-hidden="<?php _e('Show Contact Blocks', TD); ?>"><?php _e('Hide Contact Blocks', TD); ?></a>
+<a href="#" class="toggle-info-blocks" data-visible="<?php _e('Mostrar mapa', TD); ?>" data-hidden="<?php _e('Ocultar mapa', TD); ?>"><?php _e('Mostrar mapa', TD); ?></a>
 
 
 
