@@ -192,8 +192,8 @@ function woocommerce_payu_latam_gateway() {
 			foreach($parameters_args as $key => $value){
 			  $payu_args_array[] = "<input type='hidden' name='$key' value='$value'/>";
 			}
-			return '<form action="'.$this->gateway_url.'" method="post" id="payu_latam_form">' . implode('', $payu_args_array) 
-				. '<input type="submit" id="submit_payu_latam" value="' .__('Pagar', 'payu_latam').'" /></form>';
+			return '<form action="'.$this->gateway_url.'" method="post" id="payu_latam_form"></div>' . implode('', $payu_args_array) 
+				. '<div class="drawde"><input type="submit" id="submit_payu_latam" value="' .__('Pagar', 'payu_latam').'" /></form></div>';
 		}
 		
 		/**

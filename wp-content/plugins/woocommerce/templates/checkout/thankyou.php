@@ -34,7 +34,7 @@ if ( $order ) : ?>
 	<?php else : ?>
 
 		<p><?php _e( 'Thank you. Your order has been received.', 'woocommerce' ); ?></p>
-
+<div class="drawde">
 		<ul class="order_details">
 			<li class="order">
 				<?php _e( 'Order:', 'woocommerce' ); ?>
@@ -55,6 +55,7 @@ if ( $order ) : ?>
 			</li>
 			<?php endif; ?>
 		</ul>
+		</div>
 		<div class="clear"></div>
 
 	<?php endif; ?>

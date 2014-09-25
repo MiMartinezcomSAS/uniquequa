@@ -25591,19 +25591,19 @@ font-weight: bold;
     display:block !important;
 }
 
-.woocommerce{
+.drawde{
     background: #2e2e2e;
     padding: 50px 50px 25px;
     position: relative;
     font-size: 14px;
 }
-.woocommerce li{
+..woocommerce li{
     display:inline-block;
     padding:10px;
     width:25%;
     margin-right: -4px;
 }
-.woocommerce input[type='submit']{
+.drawde input[type='submit']{
     padding:10px;
     color:#fff;
     background:#000;
@@ -25611,12 +25611,12 @@ font-weight: bold;
     width:100%;
     border:none
 }
-.woocommerce li:last-child{
+..woocommerce li:last-child{
 }
-.woocommerce ul{
+..woocommerce ul{
     padding:0
 }
-.woocommerce:before{
+..woocommerce:before{
     content: "Revisión del pedido";
     position: absolute;
     top: 0;
@@ -25625,15 +25625,15 @@ font-weight: bold;
     left: 0;
     padding: 13px 20px;
 }
-.order_details {
+..order_details {
     text-align: center;
 
 
 }
-.order_details strong{
+..order_details strong{
     display:block
 
 }
-.woocommerce form{
+..woocommerce form{
     text-align: center;
 }
