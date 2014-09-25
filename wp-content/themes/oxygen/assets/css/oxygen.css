@@ -25393,6 +25393,7 @@ state
         right: 2.6%;
         width: 100%;
     }
+
 }
 
 .preload-home {
@@ -25491,6 +25492,10 @@ display: none;
 
 }
 @media (max-width: 769px) {
+
+    .subscribe-sidebar{
+        display:none
+    }
 	.menu-item-has-children:before{
 		display: none;
 	}
