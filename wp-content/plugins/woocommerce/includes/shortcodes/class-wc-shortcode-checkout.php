@@ -129,6 +129,7 @@ class WC_Shortcode_Checkout {
 				if ( in_array( $order->status, $valid_order_statuses ) ) {
 
 					?>
+                    <div class="contend-woocommerce">
 					<ul class="order_details">
 						<li class="order">
 							<?php _e( 'Order:', 'woocommerce' ); ?>
@@ -151,7 +152,7 @@ class WC_Shortcode_Checkout {
 						</li>
 						<?php endif; ?>
 					</ul>
-
+                    </div>
 					<?php do_action( 'woocommerce_receipt_' . $order->payment_method, $order_id ); ?>
 
 					<div class="clear"></div>

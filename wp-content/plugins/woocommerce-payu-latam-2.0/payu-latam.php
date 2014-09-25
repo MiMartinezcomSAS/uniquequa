@@ -120,7 +120,7 @@ function woocommerce_payu_latam_gateway() {
          * @return void
 		 */
 		function receipt_page($order){
-			echo '<p>'.__('Gracias por su pedido, de clic en el botón que aparece para continuar el pago con PayU Latam.', 'payu_latam').'</p>';
+			echo '<p class="p-woocommerce ">'.__('Gracias por su pedido, de clic en el botón que aparece para continuar el pago con PayU Latam.', 'payu_latam').'</p>';
 			echo $this -> generate_payulatam_form($order);
 		}
 		
