@@ -12,7 +12,9 @@ var public_vars = public_vars || {};
 	
 	$(document).ready(function()
 	{
+        var random = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
 
+        //$('body').css("background-image","url(../assets/images/background"+random +".jpg)");
 
 
         $("#tags-products li").click(function() {

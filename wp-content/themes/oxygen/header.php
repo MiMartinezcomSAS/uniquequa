@@ -18,9 +18,12 @@
     <?php
 
     wp_head();
+    //número aleatorio para cambiar imagen Background
+    //cambiar el numero final con la cantidad de imagenes que se quieran
+    $ran =  rand(1,2);
     ?>
 </head>
-<body <?php body_class(); ?> onLoad="javascript:preloader()">
+<body <?php body_class(); ?> onLoad="javascript:preloader() style" style="background-image: url('<?php echo get_bloginfo('template_url').'/assets/images/background'.$ran.'.jpg'; ?>')">
 <div class="wrapper-pop-up">
     <span class="nav-close">X</span>
     <div class="contend-pop-up">
