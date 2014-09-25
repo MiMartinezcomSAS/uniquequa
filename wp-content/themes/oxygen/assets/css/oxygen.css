@@ -25510,9 +25510,8 @@ display: none;
 
 }
 @media (max-width: 769px) {
-
-    .subscribe-sidebar{
-        display:none
+	.subscribe-sidebar{
+    	display:none
     }
 	.menu-item-has-children:before{
 		display: none;
