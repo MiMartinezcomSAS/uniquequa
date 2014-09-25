@@ -99,7 +99,7 @@ if (strtoupper($signature) == strtoupper($signature_md5)) {
 	<center>
 		<table style="width: 42%; margin-top: 100px;">
 			<tr align="center">
-				<th colspan="2">DATOS DE LA COMPRA</th>
+				<th colspan="2">DATOS DE LA COMPRAddd</th>
 			</tr>
 			<tr align="right">
 				<td>Estado de la transacci&oacute;n</td>
