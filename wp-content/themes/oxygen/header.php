@@ -24,6 +24,8 @@
 <div class="wrapper-pop-up">
     <span class="nav-close">X</span>
     <div class="contend-pop-up">
+        <h2>Suscribete ahora</h2>
+        <p>hola hola</p>
         <form method="post" class="register">
 
             <?php do_action( 'woocommerce_register_form_start' ); ?>
