@@ -25,7 +25,7 @@
     <span class="nav-close">X</span>
     <div class="contend-pop-up">
         <h2>Suscribete ahora</h2>
-        <p>hola hola</p>
+        <p>Ingrese sus datos para recibir mas información acerca de nuestros productos, o registrese para acceder a la tienda UNIQUE. </p>
         <form method="post" class="register">
 
             <?php do_action( 'woocommerce_register_form_start' ); ?>

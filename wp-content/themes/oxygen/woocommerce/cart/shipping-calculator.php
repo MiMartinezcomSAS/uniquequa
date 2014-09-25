@@ -102,7 +102,7 @@ if ( get_option( 'woocommerce_enable_shipping_calc' ) === 'no' || ! WC()->cart->
 			</div>
 		</div>
 			
-		<button type="submit" name="calc_shipping" value="1" class="button btn btn-black"><?php _e( 'Calculate', 'woocommerce' ); ?></button>
+		<button type="submit" name="calc_shipping" value="1" class="button btn btn-black"><?php _e( 'Calcular', 'woocommerce' ); ?></button>
 		
 	</section>
 </form>

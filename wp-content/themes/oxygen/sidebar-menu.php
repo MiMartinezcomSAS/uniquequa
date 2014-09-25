@@ -48,7 +48,7 @@
 
     <hr/>
                 <div id="subscribe-sidebar" class="subscribe-sidebar">
-                    SUSCRIBETE
+                    Suscribete
                 </div>
 			</div><!-- /sidebar-inner -->
 			
