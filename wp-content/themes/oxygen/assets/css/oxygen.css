@@ -7744,7 +7744,7 @@ body.right-sidebar .page-head-title {
 }
 
 body {
-    background: #515151 url(../images/background.jpg) no-repeat center center fixed;
+    background: #515151  no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25510,8 +25510,9 @@ display: none;
 
 }
 @media (max-width: 769px) {
-	.subscribe-sidebar{
-    	display:none
+
+    .subscribe-sidebar{
+        display:none
     }
 	.menu-item-has-children:before{
 		display: none;
