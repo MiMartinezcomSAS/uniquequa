@@ -98,7 +98,7 @@ if(get_data('use_uploaded_logo') && $custom_logo_image_responsive)
 		?>
 		<a href="<?php echo CARTURL; ?>" class="cart-items">
 			<span><?php echo WC()->cart->cart_contents_count; ?></span>
-			<?php _e('Cart', TD); ?>
+			<?php _e('Carro de Compras', TD); ?>
 		</a>
 		<?php
 		
