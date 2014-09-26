@@ -20,7 +20,7 @@
     wp_head();
     //número aleatorio para cambiar imagen Background
     //cambiar el numero final con la cantidad de imagenes que se quieran
-    $ran =  rand(1,2);
+    $ran =  rand(1,5);
     ?>
 </head>
 <body <?php body_class(); ?> onLoad="javascript:preloader()" style="background-image: url('<?php echo get_bloginfo('template_url').'/assets/images/background'.$ran.'.jpg'; ?>')">
