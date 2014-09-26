@@ -23,8 +23,9 @@
     $ran =  rand(1,2);
     ?>
 </head>
-<body <?php body_class(); ?> onLoad="javascript:preloader() style" style="background-image: url('<?php echo get_bloginfo('template_url').'/assets/images/background'.$ran.'.jpg'; ?>')">
+<body <?php body_class(); ?> onLoad="javascript:preloader()" style="background-image: url('<?php echo get_bloginfo('template_url').'/assets/images/background'.$ran.'.jpg'; ?>')">
 <div class="wrapper-pop-up">
+    <div class="close-contend"></div>
     <span class="nav-close">X</span>
     <div class="contend-pop-up">
         <h2>Suscribete ahora</h2>

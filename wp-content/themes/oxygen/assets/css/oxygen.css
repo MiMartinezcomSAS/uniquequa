@@ -25686,3 +25686,12 @@ font-weight: bold;
     padding-right: 25px;
     padding-left: 25px;
 }
+.close-contend{
+    position: absolute;
+    width:100%;
+    background:transparent;
+    top:0;
+    left:0;
+    height:100%;
+
+}
