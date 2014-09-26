@@ -116,7 +116,7 @@ if (post_password_required()) {
                         ?>
                     </li>
                     <li><?php echo(get_post_meta($post->ID, 'ventajas', true)); ?></li>
-                    <li><?php echo(get_post_meta($post->ID, 'video', true)); ?></li>
+                    <li id="video-responsive"><?php echo(get_post_meta($post->ID, 'video', true)); ?></li>
                     <li><?php echo(get_post_meta($post->ID, 'instrucciones', true)); ?></li>
                     <li>
 
