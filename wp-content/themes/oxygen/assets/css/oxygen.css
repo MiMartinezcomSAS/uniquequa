@@ -25695,3 +25695,6 @@ font-weight: bold;
     height:100%;
 
 }
+#tags-products-contends li:last-child{ 
+	height: auto;
+}
