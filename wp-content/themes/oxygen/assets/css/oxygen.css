@@ -25426,10 +25426,11 @@ state
 
 }
 .gif-preload{
-    margin: -30px -100px;
+    margin: -50px -50px;
     top: 50%;
     left: 50%;
     position: absolute;
+    width:100px
 }
 .opacity{
     opacity: 0;
