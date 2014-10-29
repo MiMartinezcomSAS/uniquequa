@@ -33,6 +33,7 @@
     //cambiar el numero final con la cantidad de imagenes que se quieran
     $ran =  rand(1,5);
     ?>
+    <link rel="shortcut icon" href="http://www.condomcard.com/wp-content/uploads/2014/10/favicon.ico">
 </head>
 <body <?php body_class(); ?> onLoad="javascript:preloader()" style="background-image: url('<?php echo get_bloginfo('template_url').'/assets/images/background'.$ran.'.jpg'; ?>')">
 <div class="wrapper-pop-up">
