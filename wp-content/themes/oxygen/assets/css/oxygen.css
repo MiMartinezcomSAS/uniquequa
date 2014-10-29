@@ -22536,7 +22536,8 @@ textarea.laborator-woocommerce .checkout-form-fields .form-row textarea:focus {
 }
 
 .laborator-woocommerce .payment_methods > li .payment_box {
-    padding-top: 5px;
+    padding-top: 15px;
+	padding-left: 29px;
 }
 
 .laborator-woocommerce .payment_methods > li:last-child {
