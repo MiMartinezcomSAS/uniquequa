@@ -25700,3 +25700,24 @@ font-weight: bold;
 #tags-products-contends li:last-child{ 
 	height: auto;
 }
+.instrucciones span, .instrucciones p{
+  display: inline-block;
+  vertical-align: middle;
+}
+.instrucciones img{
+  max-width: 100;
+}
+.instrucciones p{
+  padding-left:15px;
+  max-width: 85%;
+}
+.instrucciones{
+  width: 100%;
+  max-width:600px;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+.instrucciones span{
+  width: 7%;
+  min-width:35px;
+}
