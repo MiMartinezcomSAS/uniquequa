@@ -41,10 +41,10 @@ $template_container = "
 $template_header = "
 	background-color: " . esc_attr( $base ) .";
 	color: $base_text;
-	-webkit-border-top-left-radius:6px !important;
-	-webkit-border-top-right-radius:6px !important;
-	border-top-left-radius:6px !important;
-	border-top-right-radius:6px !important;
+	-webkit-border-top-left-radius:0px !important;
+	-webkit-border-top-right-radius:0px !important;
+	border-top-left-radius:0px !important;
+	border-top-right-radius:0px !important;
 	border-bottom: 0;
 	font-family:Arial;
 	font-weight:bold;
@@ -53,24 +53,24 @@ $template_header = "
 ";
 $body_content = "
 	background-color: " . esc_attr( $body ) . ";
-	-webkit-border-radius:6px !important;
-	border-radius:6px !important;
+	-webkit-border-radius:0px !important;
+	border-radius:0px !important;
 ";
 $body_content_inner = "
 	color: $text_lighter_20;
 	font-family:Arial;
-	font-size:14px;
+	font-size:12px;
 	line-height:150%;
 	text-align:left;
 ";
 $header_content_h1 = "
 	color: " . esc_attr( $base_text ) . ";
 	margin:0;
-	padding: 28px 24px;
+	padding: 10px 24px;
 	text-shadow: 0 1px 0 $base_lighter_20;
 	display:block;
 	font-family:Arial;
-	font-size:30px;
+	font-size:16px;
 	font-weight:bold;
 	text-align:left;
 	line-height: 150%;

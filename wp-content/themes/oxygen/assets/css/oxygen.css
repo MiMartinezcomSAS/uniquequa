@@ -25721,3 +25721,14 @@ font-weight: bold;
   width: 7%;
   min-width:35px;
 }
+.notacc{
+background: rgba(86, 86, 86, 1);
+padding: 15px 33px;
+margin-bottom: 17px;
+margin-left: -30px;
+margin-right: -30px;
+color: #FFF;
+font-size: 14px;
+border: 1px solid #3F3F3F;
+text-align: justify;
+}

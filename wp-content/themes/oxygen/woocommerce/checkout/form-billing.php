@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	<?php else : ?>
 
 		<h4 class="with-divider"><?php _e( 'Billing Details', 'woocommerce' ); ?></h4>
+		<div class="notacc">Los envios hechos por Unique llegaran en un sobre confidencial donde no se destacara su contenido y será remitido por la razón Social Innova Quality S.A.S.</div>
 
 	<?php endif; ?>
 
