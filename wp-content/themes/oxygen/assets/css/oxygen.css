@@ -20321,11 +20321,11 @@ fieldset[disabled] .woocommerce .woocommerce-success .button.active {
 }
 
 .woocommerce .woocommerce-info mark {
-    background: rgba(255, 255, 255, 0.9);
-    color: #00aeef;
-    display: inline-block;
-    padding: 0 5px;
-    font-size: 92%;
+background: rgba(0, 0, 0, 0.43);
+color: #00aeef;
+display: inline-block;
+padding: 0 5px;
+font-size: 92%;
 }
 
 .woocommerce .woocommerce-info .left-btn {
@@ -25722,7 +25722,7 @@ font-weight: bold;
   min-width:35px;
 }
 .notacc{
-background: rgba(86, 86, 86, 1);
+background: #f42434;
 padding: 15px 33px;
 margin-bottom: 17px;
 margin-left: -30px;
