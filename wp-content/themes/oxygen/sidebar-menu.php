@@ -13,8 +13,8 @@
 			<div class="sidebar-inner">
 
 			    <div class="lang">
-        <a href="#">Español</a>
-        <a href="#">Ingles</a>
+        <a href="http://www.condomcard.com/">Español</a>
+        <a href="http://en.condomcard.com/">Ingles</a>
    				 </div>
 			
 				<?php get_template_part('tpls/logo'); ?>
