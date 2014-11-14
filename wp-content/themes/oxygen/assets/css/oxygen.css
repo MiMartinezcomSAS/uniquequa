@@ -22,7 +22,12 @@
 .primary-font {
     font-family: 'Questrial', sans-serif;
 }
-
+.impuestos{
+	display:inline;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
 .heading-font,
 .contact-store .address-content p,
 .nav,
