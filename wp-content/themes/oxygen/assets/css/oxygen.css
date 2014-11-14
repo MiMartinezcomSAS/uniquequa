@@ -19,6 +19,7 @@
 	
 	For more read: http://lesscss.org/
 */
+
 .primary-font {
     font-family: 'Questrial', sans-serif;
 }
@@ -16961,7 +16962,7 @@ fieldset[disabled] .comment-respond input#submit {
 }
 
 .laborator-woocommerce .product-single .entry-summary .price {
-    display: block;
+    display: inline-block;
     position: relative;
     font-size: 40px;
     color: #fff;
