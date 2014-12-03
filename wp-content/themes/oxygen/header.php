@@ -133,6 +133,16 @@
 
     </div>
 
+
+    <div class="video-mm" style="position: fixed; z-index: -99; width: 120%; height: 120%; margin-left:-10%; margin-top: -5%">
+ <?php $home = new WP_Query('category_name=video');
+            while ($home->have_posts()) : $home->the_post();
+                ?>
+                <iframe frameborder="0" height="100%" width="100%"
+src="https://youtube.com/embed/<?php echo  get_post_meta($post->id,'id-video',true) ;?>?autoplay=1;loop=1;rel=0;autohide=1;controls=0;showinfo=0;playlist=<?php echo  get_post_meta($post->id,'id-list',true) ;?>"></iframe>
+                 <?php endwhile; ?>
+    </div>
+
 <?php endif; ?>
 <?php if (function_exists('WC')): ?>
     <?php get_template_part('tpls/header-cart'); ?>
