@@ -122,3 +122,9 @@ $nav_menu_locations = get_theme_mod('nav_menu_locations');
 
 if( ! isset($nav_menu_locations['main-menu']) || $nav_menu_locations['main-menu'] == 0)
 	add_action('admin_notices', 'laborator_setup_menus_notice');
+	remove_action( 'load-update-core.php', 'wp_update_plugins' );
+ add_filter( 'pre_site_transient_update_plugins', create_function( '$a', "return null;" ) );
+ add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ), 2 );
+add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
+# WordPress 3.x:
+add_filter( 'pre_site_transient_update_core', create_function( '$a', "return null;" ) );
