@@ -134,7 +134,7 @@
     </div>
 
 
-    <div class="video-mm" style="position: fixed; z-index: 1; width: 120%; height: 120%; margin-left:-3%; margin-top: -5%; display: none">
+    <div class="video-mm" style="position: fixed; z-index: 1; width: 120%; height: 120%; margin-left:-3%; margin-top: -5%; display: none;">
  <?php $home = new WP_Query('category_name=video');
             while ($home->have_posts()) : $home->the_post();
                 ?>
