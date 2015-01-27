@@ -64,7 +64,7 @@
                     <ul>
                         <li><a href="https://www.facebook.com/uniquecondones"target="_blank"><span class="icon-facebook"></span></a></li>
                         <li><a href="https://twitter.com/CondonesUnique"target="_blank"><span class="icon-twitter"></span></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC9SK7ynaF8jop93XwQ0ktZg"target="_blank"><span class="icon-youtube"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCFB2bB7TpttDEuuCT4rZSHw"target="_blank"><span class="icon-youtube"></span></a></li>
                     </ul>
                 </nav>
                 <p class="first"> ©Unique Condoms - 2014 </p>
